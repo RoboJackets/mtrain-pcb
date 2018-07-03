@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,8 +9,8 @@
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="PWR" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GND" color="13" fill="1" visible="no" active="yes"/>
+<layer number="3" name="PWR" color="4" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -6016,6 +6016,9 @@ Your Eurocircuits Team
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -10250,7 +10253,6 @@ Your Eurocircuits Team
 <wire x1="11.075" y1="29.65" x2="10.6625" y2="30.0625" width="0.125" layer="1"/>
 <wire x1="10.25" y1="31.375" x2="10.6625" y2="30.9625" width="0.125" layer="1"/>
 <wire x1="10.6625" y1="30.0625" x2="10.6625" y2="30.9625" width="0.125" layer="1"/>
-<wire x1="6" y1="28.25" x2="5.875" y2="28.375" width="0.125" layer="16"/>
 <via x="5.75" y="31.5" extent="1-16" drill="0.25"/>
 <wire x1="5.875" y1="28.375" x2="5.625" y2="28.625" width="0.125" layer="16"/>
 <wire x1="5.625" y1="31.375" x2="5.625" y2="28.625" width="0.125" layer="16"/>
@@ -11106,9 +11108,6 @@ Your Eurocircuits Team
 <contactref element="C22" pad="1"/>
 <contactref element="U1" pad="H11"/>
 <contactref element="C23" pad="1"/>
-<contactref element="U1" pad="G13"/>
-<contactref element="U1" pad="K12"/>
-<via x="9.2" y="18" extent="1-16" drill="0.25"/>
 <wire x1="7.875" y1="30.45" x2="7.475" y2="30.85" width="0.2" layer="1"/>
 <via x="7.475" y="30.85" extent="1-16" drill="0.25"/>
 <wire x1="7.075" y1="33.65" x2="7.075" y2="33.05" width="0.2" layer="1"/>
@@ -11170,8 +11169,6 @@ Your Eurocircuits Team
 <wire x1="13.8" y1="16.0875" x2="13.8" y2="15.8" width="0.2" layer="16"/>
 <wire x1="13.8" y1="15.8" x2="14" y2="15.6" width="0.2" layer="16"/>
 <via x="14" y="15.6" extent="1-16" drill="0.25"/>
-<wire x1="8.875" y1="16.725" x2="9.2" y2="17.05" width="0.2" layer="16"/>
-<wire x1="9.2" y1="17.05" x2="9.2" y2="18" width="0.2" layer="16"/>
 <wire x1="13.1875" y1="13.0375" x2="14" y2="13.85" width="0.2" layer="16"/>
 <wire x1="14" y1="13.85" x2="14" y2="14" width="0.2" layer="16"/>
 <wire x1="17.375" y1="6" x2="17.475" y2="5.9" width="0.2" layer="16"/>
@@ -11223,11 +11220,7 @@ Your Eurocircuits Team
 <wire x1="3.3125" y1="14.25" x2="2.9375" y2="13.875" width="0.2" layer="16"/>
 <wire x1="3" y1="13.125" x2="3.24" y2="13.125" width="0.2" layer="1"/>
 <wire x1="3.24" y1="13.125" x2="3.725" y2="13.61" width="0.2" layer="1"/>
-<wire x1="8.8" y1="16" x2="9.2" y2="15.6" width="0.2" layer="1"/>
-<via x="9.2" y="15.6" extent="1-16" drill="0.25"/>
 <via x="11.6" y="18" extent="1-16" drill="0.25"/>
-<wire x1="15.3625" y1="35.7625" x2="14.0125" y2="35.7625" width="0.2" layer="1"/>
-<wire x1="14.0125" y1="35.7625" x2="14" y2="35.75" width="0.2" layer="1"/>
 <wire x1="15.35" y1="34.625" x2="15.125" y2="34.625" width="0.2" layer="1"/>
 <wire x1="15.125" y1="34.625" x2="14.625" y2="35.125" width="0.2" layer="1"/>
 <via x="14.625" y="35.125" extent="1-16" drill="0.25"/>
@@ -11252,7 +11245,6 @@ Your Eurocircuits Team
 <via x="14.625" y="36.25" extent="1-16" drill="0.25"/>
 <wire x1="16.375" y1="35.525" x2="15.375" y2="36.525" width="0.2" layer="16"/>
 <wire x1="15.375" y1="36.525" x2="15.375" y2="36.67" width="0.2" layer="16"/>
-<wire x1="9.6" y1="18.4" x2="9.2" y2="18" width="0.2" layer="1"/>
 <wire x1="7.625" y1="4.75" x2="7.625" y2="5.375" width="0.2" layer="16"/>
 <via x="7.625" y="5.375" extent="1-16" drill="0.25"/>
 <wire x1="9.475" y1="30.45" x2="9.8875" y2="30.0375" width="0.2" layer="1"/>
@@ -11305,6 +11297,10 @@ Your Eurocircuits Team
 <wire x1="11.2" y1="19.2" x2="11.6" y2="19.6" width="0.2" layer="1"/>
 <wire x1="21.7775" y1="41.04" x2="22.585" y2="41.04" width="0.2" layer="16"/>
 <wire x1="22.585" y1="41.04" x2="22.625" y2="41" width="0.2" layer="16"/>
+<wire x1="8.875" y1="16.725" x2="8.875" y2="16.875" width="0.2" layer="16"/>
+<wire x1="8.875" y1="16.875" x2="10" y2="18" width="0.2" layer="16"/>
+<wire x1="15.3625" y1="35.7625" x2="14.0375" y2="35.7625" width="0.2" layer="1"/>
+<wire x1="14.0375" y1="35.7625" x2="13.875" y2="35.6" width="0.2" layer="1"/>
 </signal>
 <signal name="USB-3.3V">
 <contactref element="U4" pad="4"/>
@@ -11723,22 +11719,21 @@ Your Eurocircuits Team
 <wire x1="2.52" y1="15.395" x2="2.5" y2="15.415" width="0.125" layer="16"/>
 <wire x1="2.5" y1="15.415" x2="2.5" y2="39.125" width="0.125" layer="16"/>
 </signal>
+<signal name="N$7" class="1">
+<contactref element="U1" pad="G13"/>
+<contactref element="U1" pad="K12"/>
+<wire x1="9.6" y1="18.4" x2="9.2125" y2="18.0125" width="0.125" layer="1"/>
+<wire x1="9.2125" y1="16.4125" x2="8.8" y2="16" width="0.125" layer="1"/>
+<wire x1="9.2125" y1="18.0125" x2="9.2125" y2="16.4125" width="0.125" layer="1"/>
+</signal>
 </signals>
-<errors>
-<approved hash="3,1,5bfe030603ba5b42"/>
-<approved hash="3,1,0ede042604e20e1a"/>
-<approved hash="3,1,03fd23053c821c7a"/>
-<approved hash="3,16,f028f22af22af028"/>
-<approved hash="3,1,93f891fa91fa93f8"/>
-<approved hash="3,1,6bfa69f869f86bfa"/>
-<approved hash="3,1,1dc11fc31fc31dc1"/>
-<approved hash="3,1,4253405140514253"/>
-<approved hash="3,16,1a8d188f188f1a8d"/>
-<approved hash="3,16,9e1c9e1c9c1e9c1e"/>
-<approved hash="3,16,ff0ffd0dfd0dff0f"/>
-<approved hash="3,16,78487a4a7a4a7848"/>
-<approved hash="3,16,b3e6b1e4b1e4b3e6"/>
-</errors>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
