@@ -458,14 +458,14 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="WSON8">
-<smd name="1" x="-2.725" y="1.905" dx="0.95" dy="0.5" layer="1"/>
-<smd name="2" x="-2.725" y="0.635" dx="0.95" dy="0.5" layer="1"/>
-<smd name="3" x="-2.725" y="-0.635" dx="0.95" dy="0.5" layer="1"/>
-<smd name="4" x="-2.725" y="-1.905" dx="0.95" dy="0.5" layer="1"/>
-<smd name="8" x="2.725" y="1.905" dx="0.95" dy="0.5" layer="1" rot="R180"/>
-<smd name="7" x="2.725" y="0.635" dx="0.95" dy="0.5" layer="1" rot="R180"/>
-<smd name="6" x="2.725" y="-0.635" dx="0.95" dy="0.5" layer="1" rot="R180"/>
-<smd name="5" x="2.725" y="-1.905" dx="0.95" dy="0.5" layer="1" rot="R180"/>
+<smd name="1" x="-3.825" y="1.905" dx="0.95" dy="0.5" layer="1"/>
+<smd name="2" x="-3.825" y="0.635" dx="0.95" dy="0.5" layer="1"/>
+<smd name="3" x="-3.825" y="-0.635" dx="0.95" dy="0.5" layer="1"/>
+<smd name="4" x="-3.825" y="-1.905" dx="0.95" dy="0.5" layer="1"/>
+<smd name="8" x="3.825" y="1.905" dx="0.95" dy="0.5" layer="1" rot="R180"/>
+<smd name="7" x="3.825" y="0.635" dx="0.95" dy="0.5" layer="1" rot="R180"/>
+<smd name="6" x="3.825" y="-0.635" dx="0.95" dy="0.5" layer="1" rot="R180"/>
+<smd name="5" x="3.825" y="-1.905" dx="0.95" dy="0.5" layer="1" rot="R180"/>
 <smd name="9" x="0" y="0" dx="2.5" dy="3" layer="1" stop="no"/>
 <polygon width="0" layer="1">
 <vertex x="-1.7" y="-2"/>
@@ -474,13 +474,13 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <vertex x="-1.2" y="2"/>
 <vertex x="-1.7" y="1.5"/>
 </polygon>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.1" layer="51"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.1" layer="51"/>
-<text x="-2.5" y="2.75" size="1" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-2.75" size="1" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-3.5" y="3" radius="0.25" width="0" layer="51"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.1" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-3" width="0.1" layer="51"/>
+<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.1" layer="51"/>
+<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.1" layer="51"/>
+<text x="-3.5" y="3.25" size="1" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-3.25" size="1" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="-4.1" y="3.5" radius="0.25" width="0" layer="51"/>
 <polygon width="0" layer="29">
 <vertex x="1.7" y="-2"/>
 <vertex x="1.7" y="2"/>
