@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15916,13 +15916,6 @@ is extra room no</text>
 <junction x="99.06" y="93.98"/>
 </segment>
 </net>
-<net name="FMC-D0" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="DQ0"/>
-<wire x1="337.82" y1="152.4" x2="340.36" y2="152.4" width="0.1524" layer="91"/>
-<label x="340.36" y="152.4" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="FMC-D1" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="DQ1"/>
@@ -15939,23 +15932,16 @@ is extra room no</text>
 </net>
 <net name="FMC-D3" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="DQ3"/>
-<wire x1="337.82" y1="144.78" x2="340.36" y2="144.78" width="0.1524" layer="91"/>
-<label x="340.36" y="144.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="FMC-D4" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="DQ4"/>
-<wire x1="337.82" y1="142.24" x2="340.36" y2="142.24" width="0.1524" layer="91"/>
-<label x="340.36" y="142.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="DQ0"/>
+<wire x1="337.82" y1="152.4" x2="340.36" y2="152.4" width="0.1524" layer="91"/>
+<label x="340.36" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FMC-D5" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="DQ5"/>
-<wire x1="337.82" y1="139.7" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
-<label x="340.36" y="139.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="DQ4"/>
+<wire x1="337.82" y1="142.24" x2="340.36" y2="142.24" width="0.1524" layer="91"/>
+<label x="340.36" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FMC-D6" class="0">
@@ -15967,30 +15953,23 @@ is extra room no</text>
 </net>
 <net name="FMC-D7" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="DQ7"/>
-<wire x1="337.82" y1="134.62" x2="340.36" y2="134.62" width="0.1524" layer="91"/>
-<label x="340.36" y="134.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="DQ5"/>
+<wire x1="337.82" y1="139.7" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
+<label x="340.36" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FMC-D8" class="0">
+<net name="FMC-D9" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="DQ8"/>
 <wire x1="337.82" y1="132.08" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
 <label x="340.36" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FMC-D9" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="DQ9"/>
-<wire x1="337.82" y1="129.54" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
-<label x="340.36" y="129.54" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="FMC-D10" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="DQ10"/>
-<wire x1="337.82" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
-<label x="340.36" y="127" size="1.27" layer="95" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="DQ12"/>
+<wire x1="337.82" y1="121.92" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
+<label x="340.36" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FMC-D11" class="0">
@@ -16000,32 +15979,18 @@ is extra room no</text>
 <label x="340.36" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FMC-D12" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="DQ12"/>
-<wire x1="337.82" y1="121.92" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
-<label x="340.36" y="121.92" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="FMC-D13" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="DQ13"/>
-<wire x1="337.82" y1="119.38" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
-<label x="340.36" y="119.38" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="FMC-D14" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="DQ14"/>
-<wire x1="337.82" y1="116.84" x2="340.36" y2="116.84" width="0.1524" layer="91"/>
-<label x="340.36" y="116.84" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="FMC-D15" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="DQ15"/>
 <wire x1="337.82" y1="114.3" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
 <label x="340.36" y="114.3" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FMC-D14" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="DQ13"/>
+<wire x1="337.82" y1="119.38" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
+<label x="340.36" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FMC-A0" class="0">
@@ -16499,6 +16464,41 @@ is extra room no</text>
 <junction x="274.32" y="210.82"/>
 </segment>
 </net>
+<net name="FMC-D0" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="DQ3"/>
+<wire x1="337.82" y1="144.78" x2="340.36" y2="144.78" width="0.1524" layer="91"/>
+<label x="340.36" y="144.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FMC-D4" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="DQ7"/>
+<wire x1="337.82" y1="134.62" x2="340.36" y2="134.62" width="0.1524" layer="91"/>
+<label x="340.36" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FMC-D15" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="DQ14"/>
+<wire x1="337.82" y1="116.84" x2="340.36" y2="116.84" width="0.1524" layer="91"/>
+<label x="340.36" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FMC-D12" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="DQ10"/>
+<wire x1="337.82" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
+<label x="340.36" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FMC-D8" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="DQ9"/>
+<wire x1="337.82" y1="129.54" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
+<label x="340.36" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -16941,32 +16941,18 @@ mode button</text>
 <label x="63.5" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ETH-TX_P" class="0">
+<net name="ETH-TX_N" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="20"/>
 <wire x1="88.9" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
 <label x="93.98" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ETH-TX_N" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="19"/>
-<wire x1="88.9" y1="182.88" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
-<label x="93.98" y="182.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ETH-RX_P" class="0">
+<net name="ETH-RX_N" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="18"/>
 <wire x1="88.9" y1="185.42" x2="93.98" y2="185.42" width="0.1524" layer="91"/>
 <label x="93.98" y="185.42" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ETH-RX_N" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="17"/>
-<wire x1="88.9" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
-<label x="93.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT-D1" class="0">
@@ -17192,6 +17178,20 @@ mode button</text>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="198.12" x2="353.06" y2="198.12" width="0.1524" layer="91"/>
 <label x="353.06" y="198.12" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ETH-TX_P" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="19"/>
+<wire x1="88.9" y1="182.88" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
+<label x="93.98" y="182.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ETH-RX_P" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="17"/>
+<wire x1="88.9" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
+<label x="93.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
