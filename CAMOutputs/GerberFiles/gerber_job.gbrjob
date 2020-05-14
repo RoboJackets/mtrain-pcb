@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-02-13T02:32:45Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.516,
+        "LayerNumber": 6,
+        "Name": {
+            "ProjectId": "mchair"
+        },
+        "Owner": "Marine Maisonneuve <mmaisonneuve3@gatech.edu>",
+        "Size": {
+            "X": 25.625,
+            "Y": 53.5
+        }
+    }
+}

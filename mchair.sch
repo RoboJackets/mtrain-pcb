@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="12" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="13" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -165,7 +165,7 @@
 <libraries>
 <library name="mchair">
 <packages>
-<package name="DSC6101JI2A" urn="urn:adsk.eagle:footprint:2674273/1" locally_modified="yes">
+<package name="DSC6101JI2A" urn="urn:adsk.eagle:footprint:20143544/1">
 <description>DFN4, 2.5 X 2 X 0.89 mm body
 &lt;p&gt;DFN4 package with body size 2.5 X 2 X 0.89 mm&lt;/p&gt;</description>
 <circle x="-1.25" y="-1.5" radius="0.1" width="0" layer="21"/>
@@ -173,11 +173,6 @@
 <wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.12" layer="51"/>
 <wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.12" layer="51"/>
 <wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.12" layer="51"/>
-<smd name="1" x="-0.825" y="-0.625" dx="0.7" dy="0.8" layer="1" thermals="no"/>
-<smd name="2" x="0.825" y="-0.625" dx="0.7" dy="0.8" layer="1" thermals="no"/>
-<smd name="3" x="0.825" y="0.625" dx="0.7" dy="0.8" layer="1" thermals="no"/>
-<text x="-2.25" y="1.75" size="1" layer="25">&gt;NAME</text>
-<text x="-2.25" y="-1.75" size="1" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-1.5" y1="0.75" x2="-1.5" y2="1.25" width="0.1" layer="21"/>
 <wire x1="-1.5" y1="1.25" x2="-1" y2="1.25" width="0.1" layer="21"/>
 <wire x1="1" y1="1.25" x2="1.5" y2="1.25" width="0.1" layer="21"/>
@@ -186,7 +181,12 @@
 <wire x1="-1.5" y1="-1.25" x2="-1" y2="-1.25" width="0.1" layer="21"/>
 <wire x1="1" y1="-1.25" x2="1.5" y2="-1.25" width="0.1" layer="21"/>
 <wire x1="1.5" y1="-1.25" x2="1.5" y2="-0.75" width="0.1" layer="21"/>
+<smd name="1" x="-0.825" y="-0.625" dx="0.7" dy="0.8" layer="1" thermals="no"/>
+<smd name="2" x="0.825" y="-0.625" dx="0.7" dy="0.8" layer="1" thermals="no"/>
+<smd name="3" x="0.825" y="0.625" dx="0.7" dy="0.8" layer="1" thermals="no"/>
 <smd name="4" x="-0.825" y="0.625" dx="0.7" dy="0.8" layer="1"/>
+<text x="-2.25" y="1.75" size="1" layer="25">&gt;NAME</text>
+<text x="-2.25" y="-1.75" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 <package name="UX60A-MB-5ST">
 <description>&lt;b&gt;MINI USB Connector HI-SPEED Certified&lt;/b&gt; Metal Shield SMT Type Without Positioning Post&lt;p&gt;
@@ -305,7 +305,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <rectangle x1="-4.425" y1="-2.925" x2="-2.175" y2="2.925" layer="41"/>
 <rectangle x1="-0.45" y1="-1.85" x2="1.225" y2="1.85" layer="41"/>
 </package>
-<package name="UX60-MB-5S8">
+<package name="UX60-MB-5S8" urn="urn:adsk.eagle:footprint:20126202/1">
 <description>&lt;b&gt;MINI USB Connector HI-SPEED Certified&lt;/b&gt; Metal Shield Dip Type With Positioning Post&lt;p&gt;
 Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="0.0491" y1="3.8059" x2="8.9511" y2="3.8059" width="0.1016" layer="21"/>
@@ -404,7 +404,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <hole x="6.4" y="-1.75" drill="0.9"/>
 <hole x="6.4" y="1.75" drill="0.9"/>
 </package>
-<package name="CHIP-LED0603">
+<package name="CHIP-LED0603" urn="urn:adsk.eagle:footprint:20143365/1">
 <wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
 <wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
 <smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
@@ -419,7 +419,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <vertex x="0.3" y="-0.2"/>
 </polygon>
 </package>
-<package name="0402" urn="urn:adsk.eagle:footprint:15049/1">
+<package name="0402" urn="urn:adsk.eagle:footprint:20143759/1">
 <description>&lt;b&gt;EMIFIL (R) Chip Ferrite Bead for GHz Noise&lt;/b&gt;&lt;p&gt;
 Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -436,7 +436,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="WSON8">
+<package name="WSON8" urn="urn:adsk.eagle:footprint:20143828/1">
 <smd name="1" x="-3.825" y="1.905" dx="0.95" dy="0.5" layer="1"/>
 <smd name="2" x="-3.825" y="0.635" dx="0.95" dy="0.5" layer="1"/>
 <smd name="3" x="-3.825" y="-0.635" dx="0.95" dy="0.5" layer="1"/>
@@ -453,13 +453,6 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <vertex x="-1.2" y="2"/>
 <vertex x="-1.7" y="1.5"/>
 </polygon>
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.1" layer="51"/>
-<wire x1="4" y1="3" x2="4" y2="-3" width="0.1" layer="51"/>
-<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.1" layer="51"/>
-<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.1" layer="51"/>
-<text x="-3.5" y="3.25" size="1" layer="25">&gt;NAME</text>
-<text x="-3.5" y="-3.25" size="1" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-4.1" y="3.5" radius="0.25" width="0" layer="51"/>
 <polygon width="0" layer="29">
 <vertex x="1.7" y="-2"/>
 <vertex x="1.7" y="2"/>
@@ -474,11 +467,234 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <vertex x="-1.2" y="2"/>
 <vertex x="-1.7" y="1.5"/>
 </polygon>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.1" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-3" width="0.1" layer="51"/>
+<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.1" layer="51"/>
+<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.1" layer="51"/>
+<text x="-3.5" y="3.25" size="1" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-3.25" size="1" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="-4.1" y="3.5" radius="0.25" width="0" layer="51"/>
 </package>
-<package name="TFBGA216" urn="urn:adsk.eagle:footprint:2691793/1" locally_modified="yes">
+<package name="TFBGA216" urn="urn:adsk.eagle:footprint:20126588/1">
 <description>225-BGA, collapsing, 0.8 mm pitch, 13 X 13 X 1.1 mm body
 &lt;p&gt;225-pin collapsing BGA package with 0.8 mm col pitch and 0.8 mm row pitch with body size 13 X 13 X 1.1 mm&lt;/p&gt;</description>
 <circle x="-7" y="7" radius="0.2" width="0" layer="21"/>
+<circle x="-5.6" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="0.8" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="0" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="-0.8" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-5.6" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4.8" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-4" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-3.2" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-2.4" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-1.6" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="1.6" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="2.4" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="3.2" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="4" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="4.8" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="5.6" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="-5.6" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="-4.8" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="-4" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="-3.2" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="-2.4" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="-1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="-0.8" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="0" y="5.6" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="1.6" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="2.4" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="3.2" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="4" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="4.8" radius="0.235" width="0" layer="29"/>
+<circle x="0.8" y="5.6" radius="0.235" width="0" layer="29"/>
 <wire x1="-6.675" y1="3.2875" x2="-6.675" y2="6.675" width="0.12" layer="21"/>
 <wire x1="-6.675" y1="6.675" x2="-3.2875" y2="6.675" width="0.12" layer="21"/>
 <wire x1="6.675" y1="3.2875" x2="6.675" y2="6.675" width="0.12" layer="21"/>
@@ -709,224 +925,8 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <smd name="R15" x="5.6" y="-5.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <text x="-6" y="7.25" size="1" layer="25">&gt;NAME</text>
 <text x="-6" y="-7.25" size="1" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-5.6" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="0.8" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="0" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="-0.8" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-5.6" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4.8" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-4" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-3.2" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-2.4" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-1.6" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="1.6" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="2.4" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="3.2" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="4" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="4.8" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="5.6" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="-5.6" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="-4.8" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="-4" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="-3.2" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="-2.4" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="-1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="-0.8" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="0" y="5.6" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="1.6" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="2.4" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="3.2" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="4" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="4.8" radius="0.235" width="0" layer="29"/>
-<circle x="0.8" y="5.6" radius="0.235" width="0" layer="29"/>
 </package>
-<package name="VQFN24" urn="urn:adsk.eagle:footprint:2707537/1" locally_modified="yes">
+<package name="VQFN24" urn="urn:adsk.eagle:footprint:20126514/1">
 <description>24-QFN, 0.5 mm pitch, 4 X 4 X 1 mm body
 &lt;p&gt;24-pin QFN package with 0.5 mm pitch with body size 4 X 4 X 1 mm&lt;/p&gt;</description>
 <circle x="-2.5" y="2.5" radius="0.2" width="0" layer="21"/>
@@ -966,11 +966,11 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <smd name="22" x="-0.25" y="1.81" dx="0.69" dy="0.28" layer="1" roundness="100" rot="R90" thermals="no"/>
 <smd name="23" x="-0.75" y="1.81" dx="0.69" dy="0.28" layer="1" roundness="100" rot="R90" thermals="no"/>
 <smd name="24" x="-1.25" y="1.81" dx="0.69" dy="0.28" layer="1" roundness="100" rot="R90" thermals="no"/>
+<smd name="FLAG" x="0" y="0" dx="2.5" dy="2.5" layer="1"/>
 <text x="-2.047" y="2.5201" size="1" layer="25">&gt;NAME</text>
 <text x="-2.047" y="-2.5201" size="1" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="FLAG" x="0" y="0" dx="2.5" dy="2.5" layer="1"/>
 </package>
-<package name="FTSH-105-01-F-D-K">
+<package name="FTSH-105-01-F-D-K" urn="urn:adsk.eagle:footprint:20126694/1">
 <pad name="6" x="0" y="0.635" drill="0.71" diameter="1.01"/>
 <pad name="8" x="1.27" y="0.635" drill="0.71" diameter="1.01"/>
 <pad name="4" x="-1.27" y="0.635" drill="0.71" diameter="1.01"/>
@@ -992,7 +992,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <text x="-3.175" y="3.175" size="1" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-3.175" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
-<package name="VFBGA54" urn="urn:adsk.eagle:footprint:2720386/1" locally_modified="yes">
+<package name="VFBGA54" urn="urn:adsk.eagle:footprint:20142403/1">
 <description>81-BGA, collapsing, 0.8 mm pitch, 8 X 8 X 1 mm body
 &lt;p&gt;81-pin collapsing BGA package with 0.8 mm col pitch and 0.8 mm row pitch with body size 8 X 8 X 1 mm&lt;/p&gt;</description>
 <circle x="-4.5" y="4.5" radius="0.2" width="0" layer="21"/>
@@ -1065,7 +1065,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <text x="-3.5" y="4.5" size="1" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-4.5" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
-<package name="G83270021">
+<package name="G83270021" urn="urn:adsk.eagle:footprint:20143466/1">
 <smd name="1" x="-1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
 <smd name="2" x="1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
 <wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.2" layer="51"/>
@@ -1075,7 +1075,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <text x="-2" y="1.5" size="1" layer="25">&gt;NAME</text>
 <text x="-2" y="-1.5" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
-<package name="EVQ-P7C01P">
+<package name="EVQ-P7C01P" urn="urn:adsk.eagle:footprint:20143396/1">
 <hole x="0" y="0.9" drill="0.7"/>
 <hole x="0" y="-0.9" drill="0.7"/>
 <smd name="1" x="-1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
@@ -1094,7 +1094,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <text x="-2" y="2" size="1" layer="25">&gt;NAME</text>
 <text x="-2" y="-2.5" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
-<package name="EVP-BFAC1A000">
+<package name="EVP-BFAC1A000" urn="urn:adsk.eagle:footprint:20142835/1">
 <smd name="A" x="-2.875" y="2" dx="2.75" dy="1" layer="1"/>
 <smd name="B" x="-2.875" y="-2" dx="2.75" dy="1" layer="1"/>
 <smd name="A'" x="2.875" y="2" dx="2.75" dy="1" layer="1"/>
@@ -1103,7 +1103,6 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="3" y1="3" x2="3" y2="-3" width="0.2" layer="51"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2" layer="51"/>
 <wire x1="-3" y1="-3" x2="-3" y2="3" width="0.2" layer="51"/>
-<circle x="0" y="0" radius="1.75" width="0.2" layer="51"/>
 <wire x1="-3.2" y1="3.2" x2="3.2" y2="3.2" width="0.2" layer="21"/>
 <wire x1="-3.2" y1="-3.2" x2="3.2" y2="-3.2" width="0.2" layer="21"/>
 <wire x1="-3.2" y1="1.25" x2="-3.2" y2="-1.25" width="0.2" layer="21"/>
@@ -1112,10 +1111,11 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="3.2" y1="3.2" x2="3.2" y2="2.75" width="0.2" layer="21"/>
 <wire x1="-3.2" y1="-3.2" x2="-3.2" y2="-2.75" width="0.2" layer="21"/>
 <wire x1="3.2" y1="-3.2" x2="3.2" y2="-2.75" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="1.75" width="0.2" layer="51"/>
 <text x="-3" y="3.5" size="1" layer="25">&gt;NAME</text>
 <text x="-3" y="-3.5" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
-<package name="MPM3620GQV-P">
+<package name="MPM3620GQV-P" urn="urn:adsk.eagle:footprint:20143622/1">
 <smd name="3" x="-1.25" y="0.25" dx="1.1" dy="0.25" layer="1" rot="R180"/>
 <smd name="2" x="-1.25" y="0.9" dx="1.1" dy="0.25" layer="1" rot="R180"/>
 <smd name="1" x="-1.45" y="1.55" dx="0.7" dy="0.25" layer="1" rot="R180"/>
@@ -1128,6 +1128,8 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <smd name="15" x="0.25" y="2.25" dx="1.1" dy="0.25" layer="1" rot="R90"/>
 <smd name="14" x="0.75" y="2.45" dx="0.7" dy="0.25" layer="1" rot="R90"/>
 <smd name="13" x="1.25" y="2.45" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="456" x="-1" y="-1.25" dx="1.95" dy="0.6" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="789" x="1" y="-1.25" dx="1.95" dy="0.6" layer="1" rot="R90" stop="no" cream="no"/>
 <rectangle x1="-0.575" y1="0.18" x2="0.575" y2="0.97" layer="41"/>
 <wire x1="1.5" y1="2.5" x2="-1.5" y2="2.5" width="0.2" layer="51"/>
 <wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.5" width="0.2" layer="51"/>
@@ -1135,7 +1137,6 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="1.5" y1="-2.5" x2="1.5" y2="2.5" width="0.2" layer="51"/>
 <text x="-1.5" y="3.25" size="1" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2.75" size="1" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="456" x="-1" y="-1.25" dx="1.95" dy="0.6" layer="1" rot="R90" stop="no" cream="no"/>
 <polygon width="0" layer="1">
 <vertex x="-1.8" y="-2.225"/>
 <vertex x="-0.7" y="-2.225"/>
@@ -1164,7 +1165,6 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <vertex x="1.3" y="-0.525"/>
 <vertex x="1.8" y="-0.525"/>
 </polygon>
-<smd name="789" x="1" y="-1.25" dx="1.95" dy="0.6" layer="1" rot="R90" stop="no" cream="no"/>
 <polygon width="0" layer="29">
 <vertex x="-1.8" y="-2.225"/>
 <vertex x="-0.7" y="-2.225"/>
@@ -1222,11 +1222,21 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <vertex x="1.8" y="-0.525"/>
 </polygon>
 </package>
-<package name="SOT1061">
+<package name="SOT1061" urn="urn:adsk.eagle:footprint:20143926/1">
 <smd name="2" x="-0.65" y="0.8" dx="0.5" dy="0.4" layer="1" rot="R90"/>
 <smd name="1" x="0.65" y="0.8" dx="0.5" dy="0.4" layer="1" rot="R90"/>
 <smd name="3" x="0" y="-0.25" dx="1.7" dy="1.1" layer="1" rot="R180"/>
 <polygon width="0" layer="1">
+<vertex x="-0.85" y="0.3"/>
+<vertex x="0.85" y="0.3"/>
+<vertex x="0.85" y="-0.8"/>
+<vertex x="0.2" y="-0.8"/>
+<vertex x="0.2" y="-1.05"/>
+<vertex x="-0.2" y="-1.05"/>
+<vertex x="-0.2" y="-0.8"/>
+<vertex x="-0.85" y="-0.8"/>
+</polygon>
+<polygon width="0" layer="29">
 <vertex x="-0.85" y="0.3"/>
 <vertex x="0.85" y="0.3"/>
 <vertex x="0.85" y="-0.8"/>
@@ -1242,16 +1252,6 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="1" y1="1" x2="-1" y2="1" width="0.2" layer="51"/>
 <circle x="1.25" y="1.25" radius="0.15" width="0" layer="21"/>
 <text x="-1" y="-1.5" size="1" layer="25" align="top-left">&gt;NAME</text>
-<polygon width="0" layer="29">
-<vertex x="-0.85" y="0.3"/>
-<vertex x="0.85" y="0.3"/>
-<vertex x="0.85" y="-0.8"/>
-<vertex x="0.2" y="-0.8"/>
-<vertex x="0.2" y="-1.05"/>
-<vertex x="-0.2" y="-1.05"/>
-<vertex x="-0.2" y="-0.8"/>
-<vertex x="-0.85" y="-0.8"/>
-</polygon>
 </package>
 <package name="1X20" urn="urn:adsk.eagle:footprint:22312/1" locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -1439,8 +1439,12 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <rectangle x1="-24.384" y1="-0.254" x2="-23.876" y2="0.254" layer="51"/>
 <rectangle x1="23.876" y1="-0.254" x2="24.384" y2="0.254" layer="51"/>
 </package>
-<package name="MIC5503-1.8YMT-TR">
+<package name="MIC5503-1.8YMT-TR" urn="urn:adsk.eagle:footprint:20143910/1">
 <smd name="EP" x="0" y="0" dx="0.58" dy="0.58" layer="1" rot="R45"/>
+<smd name="1" x="-0.34" y="-0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.34" y="-0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.34" y="0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-0.34" y="0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
 <polygon width="0" layer="1">
 <vertex x="-0.45" y="-0.65"/>
 <vertex x="-0.45" y="-0.18"/>
@@ -1468,71 +1472,67 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <vertex x="-0.2" y="0.43"/>
 <vertex x="-0.2" y="0.65"/>
 </polygon>
-<smd name="1" x="-0.34" y="-0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
-<smd name="2" x="0.34" y="-0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.34" y="0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-0.34" y="0.54" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
+<polygon width="0" layer="29">
+<vertex x="-0.45" y="-0.65"/>
+<vertex x="-0.45" y="-0.18"/>
+<vertex x="-0.2" y="-0.43"/>
+<vertex x="-0.2" y="-0.65"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.2" y="-0.65"/>
+<vertex x="0.2" y="-0.43"/>
+<vertex x="0.38" y="-0.25"/>
+<vertex x="0.45" y="-0.25"/>
+<vertex x="0.45" y="-0.65"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.2" y="0.43"/>
+<vertex x="0.38" y="0.25"/>
+<vertex x="0.45" y="0.25"/>
+<vertex x="0.45" y="0.65"/>
+<vertex x="0.2" y="0.65"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.45" y="0.65"/>
+<vertex x="-0.45" y="0.25"/>
+<vertex x="-0.38" y="0.25"/>
+<vertex x="-0.2" y="0.43"/>
+<vertex x="-0.2" y="0.65"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.45" y="0.65"/>
+<vertex x="-0.45" y="0.25"/>
+<vertex x="-0.38" y="0.25"/>
+<vertex x="-0.2" y="0.43"/>
+<vertex x="-0.2" y="0.65"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.2" y="0.43"/>
+<vertex x="0.38" y="0.25"/>
+<vertex x="0.45" y="0.25"/>
+<vertex x="0.45" y="0.65"/>
+<vertex x="0.2" y="0.65"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.2" y="-0.65"/>
+<vertex x="0.2" y="-0.43"/>
+<vertex x="0.38" y="-0.25"/>
+<vertex x="0.45" y="-0.25"/>
+<vertex x="0.45" y="-0.65"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.45" y="-0.65"/>
+<vertex x="-0.45" y="-0.18"/>
+<vertex x="-0.2" y="-0.43"/>
+<vertex x="-0.2" y="-0.65"/>
+</polygon>
 <wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.1" layer="51"/>
 <wire x1="0.5" y1="0.5" x2="0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.5" x2="-0.5" y2="0.5" width="0.1" layer="51"/>
 <text x="-1" y="1" size="1" layer="25">&gt;NAME</text>
-<polygon width="0" layer="29">
-<vertex x="-0.45" y="-0.65"/>
-<vertex x="-0.45" y="-0.18"/>
-<vertex x="-0.2" y="-0.43"/>
-<vertex x="-0.2" y="-0.65"/>
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="0.2" y="-0.65"/>
-<vertex x="0.2" y="-0.43"/>
-<vertex x="0.38" y="-0.25"/>
-<vertex x="0.45" y="-0.25"/>
-<vertex x="0.45" y="-0.65"/>
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="0.2" y="0.43"/>
-<vertex x="0.38" y="0.25"/>
-<vertex x="0.45" y="0.25"/>
-<vertex x="0.45" y="0.65"/>
-<vertex x="0.2" y="0.65"/>
-</polygon>
-<polygon width="0" layer="29">
-<vertex x="-0.45" y="0.65"/>
-<vertex x="-0.45" y="0.25"/>
-<vertex x="-0.38" y="0.25"/>
-<vertex x="-0.2" y="0.43"/>
-<vertex x="-0.2" y="0.65"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.45" y="0.65"/>
-<vertex x="-0.45" y="0.25"/>
-<vertex x="-0.38" y="0.25"/>
-<vertex x="-0.2" y="0.43"/>
-<vertex x="-0.2" y="0.65"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.2" y="0.43"/>
-<vertex x="0.38" y="0.25"/>
-<vertex x="0.45" y="0.25"/>
-<vertex x="0.45" y="0.65"/>
-<vertex x="0.2" y="0.65"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="0.2" y="-0.65"/>
-<vertex x="0.2" y="-0.43"/>
-<vertex x="0.38" y="-0.25"/>
-<vertex x="0.45" y="-0.25"/>
-<vertex x="0.45" y="-0.65"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="-0.45" y="-0.65"/>
-<vertex x="-0.45" y="-0.18"/>
-<vertex x="-0.2" y="-0.43"/>
-<vertex x="-0.2" y="-0.65"/>
-</polygon>
 </package>
-<package name="XDFN8">
+<package name="XDFN8" urn="urn:adsk.eagle:footprint:20143677/1">
 <smd name="9" x="0" y="0" dx="1.44" dy="0.44" layer="1"/>
 <smd name="2" x="-0.2" y="-0.525" dx="0.35" dy="0.26" layer="1" rot="R90"/>
 <smd name="3" x="0.2" y="-0.525" dx="0.35" dy="0.26" layer="1" rot="R90"/>
@@ -1551,45 +1551,102 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="DFN250X200X89-4" urn="urn:adsk.eagle:package:2674268/1" locally_modified="yes" type="model">
-<description>DFN4, 2.5 X 2 X 0.89 mm body
-&lt;p&gt;DFN4 package with body size 2.5 X 2 X 0.89 mm&lt;/p&gt;</description>
+<package3d name="1X20" urn="urn:adsk.eagle:package:22441/2" locally_modified="yes" type="model">
+<description>PIN HEADER</description>
 <packageinstances>
-<packageinstance name="DSC6101JI2A"/>
+<packageinstance name="1X20"/>
 </packageinstances>
 </package3d>
-<package3d name="0402" urn="urn:adsk.eagle:package:15132/1" type="box">
-<description>EMIFIL (R) Chip Ferrite Bead for GHz Noise
-Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
-<packageinstances>
-<packageinstance name="0402"/>
-</packageinstances>
-</package3d>
-<package3d name="BGA225C80P15X15_1300X1300X110" urn="urn:adsk.eagle:package:2691673/1" locally_modified="yes" type="model">
-<description>225-BGA, collapsing, 0.8 mm pitch, 13 X 13 X 1.1 mm body
-&lt;p&gt;225-pin collapsing BGA package with 0.8 mm col pitch and 0.8 mm row pitch with body size 13 X 13 X 1.1 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="TFBGA216"/>
-</packageinstances>
-</package3d>
-<package3d name="QFN50P400X400X100-24" urn="urn:adsk.eagle:package:2707536/1" locally_modified="yes" type="model">
+<package3d name="VQFN24" urn="urn:adsk.eagle:package:20126513/2" type="model">
 <description>24-QFN, 0.5 mm pitch, 4 X 4 X 1 mm body
 &lt;p&gt;24-pin QFN package with 0.5 mm pitch with body size 4 X 4 X 1 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="VQFN24"/>
 </packageinstances>
 </package3d>
-<package3d name="BGA81C80P9X9_800X800X100" urn="urn:adsk.eagle:package:2720382/1" locally_modified="yes" type="model">
+<package3d name="UX60-MB-5S8" urn="urn:adsk.eagle:package:20126201/2" type="model">
+<description>&lt;b&gt;MINI USB Connector HI-SPEED Certified&lt;/b&gt; Metal Shield Dip Type With Positioning Post&lt;p&gt;
+Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
+<packageinstances>
+<packageinstance name="UX60-MB-5S8"/>
+</packageinstances>
+</package3d>
+<package3d name="TFBGA216" urn="urn:adsk.eagle:package:20126587/2" type="model">
+<description>225-BGA, collapsing, 0.8 mm pitch, 13 X 13 X 1.1 mm body
+&lt;p&gt;225-pin collapsing BGA package with 0.8 mm col pitch and 0.8 mm row pitch with body size 13 X 13 X 1.1 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="TFBGA216"/>
+</packageinstances>
+</package3d>
+<package3d name="FTSH-105-01-F-D-K" urn="urn:adsk.eagle:package:20126693/2" type="model">
+<packageinstances>
+<packageinstance name="FTSH-105-01-F-D-K"/>
+</packageinstances>
+</package3d>
+<package3d name="VFBGA54" urn="urn:adsk.eagle:package:20142401/2" type="box">
 <description>81-BGA, collapsing, 0.8 mm pitch, 8 X 8 X 1 mm body
 &lt;p&gt;81-pin collapsing BGA package with 0.8 mm col pitch and 0.8 mm row pitch with body size 8 X 8 X 1 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="VFBGA54"/>
 </packageinstances>
 </package3d>
-<package3d name="1X20" urn="urn:adsk.eagle:package:22441/2" locally_modified="yes" type="model">
-<description>PIN HEADER</description>
+<package3d name="EVP-BFAC1A000" urn="urn:adsk.eagle:package:20142834/2" type="model">
 <packageinstances>
-<packageinstance name="1X20"/>
+<packageinstance name="EVP-BFAC1A000"/>
+</packageinstances>
+</package3d>
+<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:20143364/2" type="model">
+<packageinstances>
+<packageinstance name="CHIP-LED0603"/>
+</packageinstances>
+</package3d>
+<package3d name="EVQ-P7C01P" urn="urn:adsk.eagle:package:20143395/2" type="model">
+<packageinstances>
+<packageinstance name="EVQ-P7C01P"/>
+</packageinstances>
+</package3d>
+<package3d name="G83270021" urn="urn:adsk.eagle:package:20143465/2" type="box">
+<packageinstances>
+<packageinstance name="G83270021"/>
+</packageinstances>
+</package3d>
+<package3d name="DSC6101JI2A" urn="urn:adsk.eagle:package:20143543/2" type="model">
+<description>DFN4, 2.5 X 2 X 0.89 mm body
+&lt;p&gt;DFN4 package with body size 2.5 X 2 X 0.89 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DSC6101JI2A"/>
+</packageinstances>
+</package3d>
+<package3d name="MPM3620GQV-P" urn="urn:adsk.eagle:package:20143621/2" type="box">
+<packageinstances>
+<packageinstance name="MPM3620GQV-P"/>
+</packageinstances>
+</package3d>
+<package3d name="XDFN8" urn="urn:adsk.eagle:package:20143676/2" type="box">
+<packageinstances>
+<packageinstance name="XDFN8"/>
+</packageinstances>
+</package3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:20143757/2" type="model">
+<description>&lt;b&gt;EMIFIL (R) Chip Ferrite Bead for GHz Noise&lt;/b&gt;&lt;p&gt;
+Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
+<packageinstances>
+<packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+<package3d name="WSON8" urn="urn:adsk.eagle:package:20143826/2" type="model">
+<packageinstances>
+<packageinstance name="WSON8"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT1061" urn="urn:adsk.eagle:package:20143925/2" type="box">
+<packageinstances>
+<packageinstance name="SOT1061"/>
+</packageinstances>
+</package3d>
+<package3d name="MIC5503-1.8YMT-TR" urn="urn:adsk.eagle:package:20143909/2" type="box">
+<packageinstances>
+<packageinstance name="MIC5503-1.8YMT-TR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5455,11 +5512,10 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2674268/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143543/2"/>
 </package3dinstances>
 <technologies>
-<technology name="-024.0000"/>
-<technology name="-025.0000"/>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5522,6 +5578,9 @@ Mini USB Connector
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20126201/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PINS" value="5"/>
@@ -5540,6 +5599,9 @@ Mini USB Connector
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143364/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="" constant="no"/>
@@ -5596,11 +5658,10 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15132/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143757/2"/>
 </package3dinstances>
 <technologies>
-<technology name="AG601SN1D"/>
-<technology name="PX121SN1D"/>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5621,6 +5682,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="VSS" pad="4"/>
 <connect gate="G$1" pin="WP/IO2" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143826/2"/>
+</package3dinstances>
 <technologies>
 <technology name="128"/>
 <technology name="256"/>
@@ -5823,7 +5887,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="C" pin="VSSDSI" pad="G12"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2691673/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20126587/2"/>
 </package3dinstances>
 <technologies>
 <technology name="69"/>
@@ -5881,7 +5945,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="VDDIO" pad="17"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2707536/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20126513/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5923,7 +5987,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="XTAL2" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2707536/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20126513/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5948,6 +6012,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="TDI" pad="8"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20126693/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6006,7 +6073,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="VSSQ" pad="A3 B7 C3 D7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2720382/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20142401/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -6024,6 +6091,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143465/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6042,6 +6112,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="B1" pad="2"/>
 <connect gate="G$1" pin="B2" pad="2'"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143395/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6060,6 +6133,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="B1" pad="B"/>
 <connect gate="G$1" pin="B2" pad="B'"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20142834/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6084,6 +6160,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="SW" pad="456"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143621/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6101,6 +6180,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="A2" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143925/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6157,6 +6239,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="VIN" pad="4"/>
 <connect gate="G$1" pin="VOUT" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143909/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6177,6 +6262,9 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <connect gate="G$1" pin="NC" pad="3 9"/>
 <connect gate="G$1" pin="OUT" pad="1 2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20143676/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10345,16 +10433,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:23626/1" type="box" library_version="3">
-<description>CAPACITOR</description>
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="11">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0504" urn="urn:adsk.eagle:package:23624/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0504"/>
 </packageinstances>
 </package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="3">
@@ -10379,12 +10462,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <description>CAPACITOR</description>
 <packageinstances>
 <packageinstance name="C1210"/>
-</packageinstances>
-</package3d>
-<package3d name="C1310" urn="urn:adsk.eagle:package:23620/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1310"/>
 </packageinstances>
 </package3d>
 <package3d name="C1608" urn="urn:adsk.eagle:package:23621/2" type="model" library_version="3">
@@ -10827,13 +10904,6 @@ Metric Code Size 4532</description>
 <packageinstance name="C1812K"/>
 </packageinstances>
 </package3d>
-<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/1" type="box" library_version="3">
-<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
-Metric Code Size 4564</description>
-<packageinstances>
-<packageinstance name="C1825K"/>
-</packageinstances>
-</package3d>
 <package3d name="C2220K" urn="urn:adsk.eagle:package:23687/2" type="model" library_version="3">
 <description>Ceramic Chip Capacitor KEMET 2220 reflow solderMetric Code Size 5650</description>
 <packageinstances>
@@ -10872,16 +10942,10 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="C01005"/>
 </packageinstances>
 </package3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:23547/2" type="box" library_version="3">
+<package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model" library_version="11">
 <description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
 <packageinstances>
 <packageinstance name="R0402"/>
-</packageinstances>
-</package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="3">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
 </packageinstances>
 </package3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:23553/2" type="model" library_version="3">
@@ -10890,23 +10954,10 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="R0805"/>
 </packageinstances>
 </package3d>
-<package3d name="R0805W" urn="urn:adsk.eagle:package:23537/1" type="box" library_version="3">
-<description>RESISTOR wave soldering</description>
-<packageinstances>
-<packageinstance name="R0805W"/>
-</packageinstances>
-</package3d>
 <package3d name="R1206" urn="urn:adsk.eagle:package:23540/2" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-<package3d name="R1206W" urn="urn:adsk.eagle:package:23539/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R1206W"/>
 </packageinstances>
 </package3d>
 <package3d name="R1210" urn="urn:adsk.eagle:package:23554/2" type="model" library_version="3">
@@ -10915,24 +10966,10 @@ wave soldering</description>
 <packageinstance name="R1210"/>
 </packageinstances>
 </package3d>
-<package3d name="R1210W" urn="urn:adsk.eagle:package:23541/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R1210W"/>
-</packageinstances>
-</package3d>
 <package3d name="R2010" urn="urn:adsk.eagle:package:23551/2" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R2010"/>
-</packageinstances>
-</package3d>
-<package3d name="R2010W" urn="urn:adsk.eagle:package:23542/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2010W"/>
 </packageinstances>
 </package3d>
 <package3d name="R2012" urn="urn:adsk.eagle:package:23543/2" type="model" library_version="3">
@@ -10941,24 +10978,10 @@ wave soldering</description>
 <packageinstance name="R2012"/>
 </packageinstances>
 </package3d>
-<package3d name="R2012W" urn="urn:adsk.eagle:package:23544/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2012W"/>
-</packageinstances>
-</package3d>
 <package3d name="R2512" urn="urn:adsk.eagle:package:23545/2" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R2512"/>
-</packageinstances>
-</package3d>
-<package3d name="R2512W" urn="urn:adsk.eagle:package:23565/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R2512W"/>
 </packageinstances>
 </package3d>
 <package3d name="R3216" urn="urn:adsk.eagle:package:23557/2" type="model" library_version="3">
@@ -10967,37 +10990,16 @@ wave soldering</description>
 <packageinstance name="R3216"/>
 </packageinstances>
 </package3d>
-<package3d name="R3216W" urn="urn:adsk.eagle:package:23548/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R3216W"/>
-</packageinstances>
-</package3d>
 <package3d name="R3225" urn="urn:adsk.eagle:package:23549/2" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R3225"/>
 </packageinstances>
 </package3d>
-<package3d name="R3225W" urn="urn:adsk.eagle:package:23550/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R3225W"/>
-</packageinstances>
-</package3d>
 <package3d name="R5025" urn="urn:adsk.eagle:package:23552/2" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R5025"/>
-</packageinstances>
-</package3d>
-<package3d name="R5025W" urn="urn:adsk.eagle:package:23558/1" type="box" library_version="3">
-<description>RESISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="R5025W"/>
 </packageinstances>
 </package3d>
 <package3d name="R6332" urn="urn:adsk.eagle:package:23559/2" type="model" library_version="3">
@@ -11007,81 +11009,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <packageinstance name="R6332"/>
 </packageinstances>
 </package3d>
-<package3d name="M0805" urn="urn:adsk.eagle:package:23556/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M0805"/>
-</packageinstances>
-</package3d>
-<package3d name="M1206" urn="urn:adsk.eagle:package:23566/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M1206"/>
-</packageinstances>
-</package3d>
-<package3d name="M1406" urn="urn:adsk.eagle:package:23569/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M1406"/>
-</packageinstances>
-</package3d>
-<package3d name="M2012" urn="urn:adsk.eagle:package:23561/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M2012"/>
-</packageinstances>
-</package3d>
-<package3d name="M2309" urn="urn:adsk.eagle:package:23562/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M2309"/>
-</packageinstances>
-</package3d>
-<package3d name="M3216" urn="urn:adsk.eagle:package:23563/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M3216"/>
-</packageinstances>
-</package3d>
-<package3d name="M3516" urn="urn:adsk.eagle:package:23573/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M3516"/>
-</packageinstances>
-</package3d>
-<package3d name="M5923" urn="urn:adsk.eagle:package:23564/1" type="box" library_version="3">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M5923"/>
-</packageinstances>
-</package3d>
 <package3d name="0204/5" urn="urn:adsk.eagle:package:23488/1" type="box" library_version="3">
 <description>RESISTOR
 type 0204, grid 5 mm</description>
 <packageinstances>
 <packageinstance name="0204/5"/>
-</packageinstances>
-</package3d>
-<package3d name="0204/7" urn="urn:adsk.eagle:package:23498/1" type="box" library_version="3">
-<description>RESISTOR
-type 0204, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0204/7"/>
-</packageinstances>
-</package3d>
-<package3d name="0207/10" urn="urn:adsk.eagle:package:23491/1" type="box" library_version="3">
-<description>RESISTOR
-type 0207, grid 10 mm</description>
-<packageinstances>
-<packageinstance name="0207/10"/>
 </packageinstances>
 </package3d>
 <package3d name="0207/12" urn="urn:adsk.eagle:package:23489/1" type="box" library_version="3">
@@ -11112,20 +11044,6 @@ type 0207, grid 5 mm</description>
 <packageinstance name="0207/5V"/>
 </packageinstances>
 </package3d>
-<package3d name="0207/7" urn="urn:adsk.eagle:package:23493/1" type="box" library_version="3">
-<description>RESISTOR
-type 0207, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0207/7"/>
-</packageinstances>
-</package3d>
-<package3d name="0309/10" urn="urn:adsk.eagle:package:23567/1" type="box" library_version="3">
-<description>RESISTOR
-type 0309, grid 10mm</description>
-<packageinstances>
-<packageinstance name="0309/10"/>
-</packageinstances>
-</package3d>
 <package3d name="0309/12" urn="urn:adsk.eagle:package:23571/1" type="box" library_version="3">
 <description>RESISTOR
 type 0309, grid 12.5 mm</description>
@@ -11140,13 +11058,6 @@ type 0411, grid 12.5 mm</description>
 <packageinstance name="0411/12"/>
 </packageinstances>
 </package3d>
-<package3d name="0411/15" urn="urn:adsk.eagle:package:23568/1" type="box" library_version="3">
-<description>RESISTOR
-type 0411, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="0411/15"/>
-</packageinstances>
-</package3d>
 <package3d name="0411V" urn="urn:adsk.eagle:package:23570/1" type="box" library_version="3">
 <description>RESISTOR
 type 0411, grid 3.81 mm</description>
@@ -11154,25 +11065,11 @@ type 0411, grid 3.81 mm</description>
 <packageinstance name="0411V"/>
 </packageinstances>
 </package3d>
-<package3d name="0414/15" urn="urn:adsk.eagle:package:23579/1" type="box" library_version="3">
-<description>RESISTOR
-type 0414, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="0414/15"/>
-</packageinstances>
-</package3d>
 <package3d name="0414V" urn="urn:adsk.eagle:package:23574/1" type="box" library_version="3">
 <description>RESISTOR
 type 0414, grid 5 mm</description>
 <packageinstances>
 <packageinstance name="0414V"/>
-</packageinstances>
-</package3d>
-<package3d name="0617/17" urn="urn:adsk.eagle:package:23575/1" type="box" library_version="3">
-<description>RESISTOR
-type 0617, grid 17.5 mm</description>
-<packageinstances>
-<packageinstance name="0617/17"/>
 </packageinstances>
 </package3d>
 <package3d name="0617/22" urn="urn:adsk.eagle:package:23577/1" type="box" library_version="3">
@@ -11189,25 +11086,11 @@ type 0617, grid 5 mm</description>
 <packageinstance name="0617V"/>
 </packageinstances>
 </package3d>
-<package3d name="0922/22" urn="urn:adsk.eagle:package:23580/1" type="box" library_version="3">
-<description>RESISTOR
-type 0922, grid 22.5 mm</description>
-<packageinstances>
-<packageinstance name="0922/22"/>
-</packageinstances>
-</package3d>
 <package3d name="P0613V" urn="urn:adsk.eagle:package:23582/1" type="box" library_version="3">
 <description>RESISTOR
 type 0613, grid 5 mm</description>
 <packageinstances>
 <packageinstance name="P0613V"/>
-</packageinstances>
-</package3d>
-<package3d name="P0613/15" urn="urn:adsk.eagle:package:23581/1" type="box" library_version="3">
-<description>RESISTOR
-type 0613, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="P0613/15"/>
 </packageinstances>
 </package3d>
 <package3d name="P0817/22" urn="urn:adsk.eagle:package:23583/1" type="box" library_version="3">
@@ -11231,13 +11114,6 @@ type V234, grid 12.5 mm</description>
 <packageinstance name="V234/12"/>
 </packageinstances>
 </package3d>
-<package3d name="V235/17" urn="urn:adsk.eagle:package:23586/1" type="box" library_version="3">
-<description>RESISTOR
-type V235, grid 17.78 mm</description>
-<packageinstances>
-<packageinstance name="V235/17"/>
-</packageinstances>
-</package3d>
 <package3d name="V526-0" urn="urn:adsk.eagle:package:23590/1" type="box" library_version="3">
 <description>RESISTOR
 type V526-0, grid 2.5 mm</description>
@@ -11256,20 +11132,6 @@ type V526-0, grid 2.5 mm</description>
 type 0922, grid 7.5 mm</description>
 <packageinstances>
 <packageinstance name="0922V"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0102R" urn="urn:adsk.eagle:package:23591/1" type="box" library_version="3">
-<description>CECC Size RC2211 Reflow Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102R"/>
-</packageinstances>
-</package3d>
-<package3d name="MINI_MELF-0102W" urn="urn:adsk.eagle:package:23588/1" type="box" library_version="3">
-<description>CECC Size RC2211 Wave Soldering
-source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102W"/>
 </packageinstances>
 </package3d>
 <package3d name="RDH/15" urn="urn:adsk.eagle:package:23595/1" type="box" library_version="3">
@@ -11293,49 +11155,276 @@ type 0309, grid 2.5 mm</description>
 <packageinstance name="0309V"/>
 </packageinstances>
 </package3d>
-<package3d name="R6332W" urn="urn:adsk.eagle:package:26078/1" type="box" library_version="5">
+<package3d name="C0504" urn="urn:adsk.eagle:package:23624/2" type="model" library_version="11">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C0504"/>
+</packageinstances>
+</package3d>
+<package3d name="C1310" urn="urn:adsk.eagle:package:23620/2" type="model" library_version="11">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C1310"/>
+</packageinstances>
+</package3d>
+<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/2" type="model" library_version="11">
+<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
+Metric Code Size 4564</description>
+<packageinstances>
+<packageinstance name="C1825K"/>
+</packageinstances>
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="11">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+<package3d name="R0805W" urn="urn:adsk.eagle:package:23537/2" type="model" library_version="11">
+<description>RESISTOR wave soldering</description>
+<packageinstances>
+<packageinstance name="R0805W"/>
+</packageinstances>
+</package3d>
+<package3d name="R1206W" urn="urn:adsk.eagle:package:23539/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R1206W"/>
+</packageinstances>
+</package3d>
+<package3d name="R1210W" urn="urn:adsk.eagle:package:23541/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R1210W"/>
+</packageinstances>
+</package3d>
+<package3d name="R2010W" urn="urn:adsk.eagle:package:23542/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R2010W"/>
+</packageinstances>
+</package3d>
+<package3d name="R2012W" urn="urn:adsk.eagle:package:23544/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R2012W"/>
+</packageinstances>
+</package3d>
+<package3d name="R2512W" urn="urn:adsk.eagle:package:23565/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R2512W"/>
+</packageinstances>
+</package3d>
+<package3d name="R3216W" urn="urn:adsk.eagle:package:23548/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R3216W"/>
+</packageinstances>
+</package3d>
+<package3d name="R3225W" urn="urn:adsk.eagle:package:23550/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R3225W"/>
+</packageinstances>
+</package3d>
+<package3d name="R5025W" urn="urn:adsk.eagle:package:23558/2" type="model" library_version="11">
+<description>RESISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="R5025W"/>
+</packageinstances>
+</package3d>
+<package3d name="R6332W" urn="urn:adsk.eagle:package:26078/2" type="model" library_version="11">
 <description>RESISTOR wave soldering
 Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
 <packageinstances>
 <packageinstance name="R6332W"/>
 </packageinstances>
 </package3d>
-<package3d name="MINI_MELF-0204R" urn="urn:adsk.eagle:package:26109/1" type="box" library_version="5">
+<package3d name="M0805" urn="urn:adsk.eagle:package:23556/2" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.10 W</description>
+<packageinstances>
+<packageinstance name="M0805"/>
+</packageinstances>
+</package3d>
+<package3d name="M1206" urn="urn:adsk.eagle:package:23566/2" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M1206"/>
+</packageinstances>
+</package3d>
+<package3d name="M1406" urn="urn:adsk.eagle:package:23569/2" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.12 W</description>
+<packageinstances>
+<packageinstance name="M1406"/>
+</packageinstances>
+</package3d>
+<package3d name="M2012" urn="urn:adsk.eagle:package:23561/2" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.10 W</description>
+<packageinstances>
+<packageinstance name="M2012"/>
+</packageinstances>
+</package3d>
+<package3d name="M2309" urn="urn:adsk.eagle:package:23562/2" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M2309"/>
+</packageinstances>
+</package3d>
+<package3d name="M3216" urn="urn:adsk.eagle:package:23563/2" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M3216"/>
+</packageinstances>
+</package3d>
+<package3d name="M3516" urn="urn:adsk.eagle:package:23573/2" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.12 W</description>
+<packageinstances>
+<packageinstance name="M3516"/>
+</packageinstances>
+</package3d>
+<package3d name="M5923" urn="urn:adsk.eagle:package:23564/3" type="model" library_version="11">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M5923"/>
+</packageinstances>
+</package3d>
+<package3d name="0204/7" urn="urn:adsk.eagle:package:23498/2" type="model" library_version="11">
+<description>RESISTOR
+type 0204, grid 7.5 mm</description>
+<packageinstances>
+<packageinstance name="0204/7"/>
+</packageinstances>
+</package3d>
+<package3d name="0207/10" urn="urn:adsk.eagle:package:23491/2" type="model" library_version="11">
+<description>RESISTOR
+type 0207, grid 10 mm</description>
+<packageinstances>
+<packageinstance name="0207/10"/>
+</packageinstances>
+</package3d>
+<package3d name="0207/7" urn="urn:adsk.eagle:package:23493/2" type="model" library_version="11">
+<description>RESISTOR
+type 0207, grid 7.5 mm</description>
+<packageinstances>
+<packageinstance name="0207/7"/>
+</packageinstances>
+</package3d>
+<package3d name="0309/10" urn="urn:adsk.eagle:package:23567/2" type="model" library_version="11">
+<description>RESISTOR
+type 0309, grid 10mm</description>
+<packageinstances>
+<packageinstance name="0309/10"/>
+</packageinstances>
+</package3d>
+<package3d name="0411/15" urn="urn:adsk.eagle:package:23568/2" type="model" library_version="11">
+<description>RESISTOR
+type 0411, grid 15 mm</description>
+<packageinstances>
+<packageinstance name="0411/15"/>
+</packageinstances>
+</package3d>
+<package3d name="0414/15" urn="urn:adsk.eagle:package:23579/2" type="model" library_version="11">
+<description>RESISTOR
+type 0414, grid 15 mm</description>
+<packageinstances>
+<packageinstance name="0414/15"/>
+</packageinstances>
+</package3d>
+<package3d name="0617/17" urn="urn:adsk.eagle:package:23575/2" type="model" library_version="11">
+<description>RESISTOR
+type 0617, grid 17.5 mm</description>
+<packageinstances>
+<packageinstance name="0617/17"/>
+</packageinstances>
+</package3d>
+<package3d name="0922/22" urn="urn:adsk.eagle:package:23580/2" type="model" library_version="11">
+<description>RESISTOR
+type 0922, grid 22.5 mm</description>
+<packageinstances>
+<packageinstance name="0922/22"/>
+</packageinstances>
+</package3d>
+<package3d name="P0613/15" urn="urn:adsk.eagle:package:23581/2" type="model" library_version="11">
+<description>RESISTOR
+type 0613, grid 15 mm</description>
+<packageinstances>
+<packageinstance name="P0613/15"/>
+</packageinstances>
+</package3d>
+<package3d name="V235/17" urn="urn:adsk.eagle:package:23586/2" type="model" library_version="11">
+<description>RESISTOR
+type V235, grid 17.78 mm</description>
+<packageinstances>
+<packageinstance name="V235/17"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0102R" urn="urn:adsk.eagle:package:23591/2" type="model" library_version="11">
+<description>CECC Size RC2211 Reflow Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0102R"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0102W" urn="urn:adsk.eagle:package:23588/2" type="model" library_version="11">
+<description>CECC Size RC2211 Wave Soldering
+source Beyschlag</description>
+<packageinstances>
+<packageinstance name="MINI_MELF-0102W"/>
+</packageinstances>
+</package3d>
+<package3d name="MINI_MELF-0204R" urn="urn:adsk.eagle:package:26109/2" type="model" library_version="11">
 <description>CECC Size RC3715 Reflow Soldering
 source Beyschlag</description>
 <packageinstances>
 <packageinstance name="MINI_MELF-0204R"/>
 </packageinstances>
 </package3d>
-<package3d name="MINI_MELF-0204W" urn="urn:adsk.eagle:package:26111/1" type="box" library_version="5">
+<package3d name="MINI_MELF-0204W" urn="urn:adsk.eagle:package:26111/2" type="model" library_version="11">
 <description>CECC Size RC3715 Wave Soldering
 source Beyschlag</description>
 <packageinstances>
 <packageinstance name="MINI_MELF-0204W"/>
 </packageinstances>
 </package3d>
-<package3d name="MINI_MELF-0207R" urn="urn:adsk.eagle:package:26113/1" type="box" library_version="5">
+<package3d name="MINI_MELF-0207R" urn="urn:adsk.eagle:package:26113/2" type="model" library_version="11">
 <description>CECC Size RC6123 Reflow Soldering
 source Beyschlag</description>
 <packageinstances>
 <packageinstance name="MINI_MELF-0207R"/>
 </packageinstances>
 </package3d>
-<package3d name="MINI_MELF-0207W" urn="urn:adsk.eagle:package:26112/1" type="box" library_version="5">
+<package3d name="MINI_MELF-0207W" urn="urn:adsk.eagle:package:26112/2" type="model" library_version="11">
 <description>CECC Size RC6123 Wave Soldering
 source Beyschlag</description>
 <packageinstances>
 <packageinstance name="MINI_MELF-0207W"/>
 </packageinstances>
 </package3d>
-<package3d name="R0201" urn="urn:adsk.eagle:package:26117/1" type="box" library_version="5">
+<package3d name="R0201" urn="urn:adsk.eagle:package:26117/2" type="model" library_version="11">
 <description>RESISTOR chip
 Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <packageinstances>
 <packageinstance name="R0201"/>
 </packageinstances>
 </package3d>
-<package3d name="VMTA55" urn="urn:adsk.eagle:package:26121/1" type="box" library_version="5">
+<package3d name="VMTA55" urn="urn:adsk.eagle:package:26121/2" type="model" library_version="11">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RNC55
 Source: VISHAY .. vta56.pdf</description>
@@ -11343,7 +11432,7 @@ Source: VISHAY .. vta56.pdf</description>
 <packageinstance name="VMTA55"/>
 </packageinstances>
 </package3d>
-<package3d name="VMTB60" urn="urn:adsk.eagle:package:26122/1" type="box" library_version="5">
+<package3d name="VMTB60" urn="urn:adsk.eagle:package:26122/2" type="model" library_version="11">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RNC60
 Source: VISHAY .. vta56.pdf</description>
@@ -11351,7 +11440,7 @@ Source: VISHAY .. vta56.pdf</description>
 <packageinstance name="VMTB60"/>
 </packageinstances>
 </package3d>
-<package3d name="VTA52" urn="urn:adsk.eagle:package:26116/1" type="box" library_version="5">
+<package3d name="VTA52" urn="urn:adsk.eagle:package:26116/2" type="model" library_version="11">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR52
 Source: VISHAY .. vta56.pdf</description>
@@ -11359,7 +11448,7 @@ Source: VISHAY .. vta56.pdf</description>
 <packageinstance name="VTA52"/>
 </packageinstances>
 </package3d>
-<package3d name="VTA53" urn="urn:adsk.eagle:package:26118/1" type="box" library_version="5">
+<package3d name="VTA53" urn="urn:adsk.eagle:package:26118/2" type="model" library_version="11">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR53
 Source: VISHAY .. vta56.pdf</description>
@@ -11367,7 +11456,7 @@ Source: VISHAY .. vta56.pdf</description>
 <packageinstance name="VTA53"/>
 </packageinstances>
 </package3d>
-<package3d name="VTA54" urn="urn:adsk.eagle:package:26119/1" type="box" library_version="5">
+<package3d name="VTA54" urn="urn:adsk.eagle:package:26119/2" type="model" library_version="11">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR54
 Source: VISHAY .. vta56.pdf</description>
@@ -11375,7 +11464,7 @@ Source: VISHAY .. vta56.pdf</description>
 <packageinstance name="VTA54"/>
 </packageinstances>
 </package3d>
-<package3d name="VTA55" urn="urn:adsk.eagle:package:26120/1" type="box" library_version="5">
+<package3d name="VTA55" urn="urn:adsk.eagle:package:26120/2" type="model" library_version="11">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR55
 Source: VISHAY .. vta56.pdf</description>
@@ -11383,7 +11472,7 @@ Source: VISHAY .. vta56.pdf</description>
 <packageinstance name="VTA55"/>
 </packageinstances>
 </package3d>
-<package3d name="VTA56" urn="urn:adsk.eagle:package:26129/1" type="box" library_version="5">
+<package3d name="VTA56" urn="urn:adsk.eagle:package:26129/3" type="model" library_version="11">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR56
 Source: VISHAY .. vta56.pdf</description>
@@ -11391,70 +11480,72 @@ Source: VISHAY .. vta56.pdf</description>
 <packageinstance name="VTA56"/>
 </packageinstances>
 </package3d>
-<package3d name="R4527" urn="urn:adsk.eagle:package:13310/1" type="box" library_version="5">
+<package3d name="R4527" urn="urn:adsk.eagle:package:13310/2" type="model" library_version="11">
 <description>Package 4527
 Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <packageinstances>
 <packageinstance name="R4527"/>
 </packageinstances>
 </package3d>
-<package3d name="WSC0001" urn="urn:adsk.eagle:package:26123/1" type="box" library_version="5">
+<package3d name="WSC0001" urn="urn:adsk.eagle:package:26123/2" type="model" library_version="11">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
 <packageinstances>
 <packageinstance name="WSC0001"/>
 </packageinstances>
 </package3d>
-<package3d name="WSC0002" urn="urn:adsk.eagle:package:26125/1" type="box" library_version="5">
+<package3d name="WSC0002" urn="urn:adsk.eagle:package:26125/2" type="model" library_version="11">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
 <packageinstances>
 <packageinstance name="WSC0002"/>
 </packageinstances>
 </package3d>
-<package3d name="WSC01/2" urn="urn:adsk.eagle:package:26127/1" type="box" library_version="5">
+<package3d name="WSC01/2" urn="urn:adsk.eagle:package:26127/2" type="model" library_version="11">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
 <packageinstances>
 <packageinstance name="WSC01/2"/>
 </packageinstances>
 </package3d>
-<package3d name="WSC2515" urn="urn:adsk.eagle:package:26134/1" type="box" library_version="5">
+<package3d name="WSC2515" urn="urn:adsk.eagle:package:26134/2" type="model" library_version="11">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
 <packageinstances>
 <packageinstance name="WSC2515"/>
 </packageinstances>
 </package3d>
-<package3d name="WSC4527" urn="urn:adsk.eagle:package:26126/1" type="box" library_version="5">
+<package3d name="WSC4527" urn="urn:adsk.eagle:package:26126/2" type="model" library_version="11">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
 <packageinstances>
 <packageinstance name="WSC4527"/>
 </packageinstances>
 </package3d>
-<package3d name="WSC6927" urn="urn:adsk.eagle:package:26128/1" type="box" library_version="5">
+<package3d name="WSC6927" urn="urn:adsk.eagle:package:26128/2" type="model" library_version="11">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
 <packageinstances>
 <packageinstance name="WSC6927"/>
 </packageinstances>
 </package3d>
-<package3d name="R1218" urn="urn:adsk.eagle:package:26131/1" type="box" library_version="5">
+<package3d name="R1218" urn="urn:adsk.eagle:package:26131/2" type="model" library_version="11">
 <description>CRCW1218 Thick Film, Rectangular Chip Resistors
 Source: http://www.vishay.com .. dcrcw.pdf</description>
 <packageinstances>
 <packageinstance name="R1218"/>
 </packageinstances>
 </package3d>
-<package3d name="1812X7R" urn="urn:adsk.eagle:package:26130/1" type="box" library_version="5">
+<package3d name="1812X7R" urn="urn:adsk.eagle:package:26130/2" type="model" library_version="11">
 <description>Chip Monolithic Ceramic Capacitors Medium Voltage High Capacitance for General Use
 Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <packageinstances>
 <packageinstance name="1812X7R"/>
 </packageinstances>
 </package3d>
-<package3d name="R01005" urn="urn:adsk.eagle:package:26133/1" type="box" library_version="5">
+<package3d name="R01005" urn="urn:adsk.eagle:package:26133/2" type="model" library_version="11">
+<description>Chip, 0.40 X 0.20 X 0.16 mm body
+&lt;p&gt;Chip package with body size 0.40 X 0.20 X 0.16 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="R01005"/>
 </packageinstances>
@@ -11488,7 +11579,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/42" prefix="C" uservalue="yes" library_version="3">
+<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/44" prefix="C" uservalue="yes" library_version="11">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="C-US" x="0" y="0"/>
@@ -11500,10 +11591,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="16" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11514,10 +11606,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11532,6 +11625,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="37" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11546,6 +11640,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="63" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11560,6 +11655,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="24" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11574,6 +11670,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11584,10 +11681,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11602,6 +11700,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11616,6 +11715,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11630,6 +11730,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11644,6 +11745,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11658,6 +11760,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11672,6 +11775,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11686,6 +11790,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11700,6 +11805,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11714,6 +11820,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11728,6 +11835,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11742,6 +11850,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11756,6 +11865,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11770,6 +11880,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11784,6 +11895,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11798,6 +11910,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11812,6 +11925,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11826,6 +11940,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11840,6 +11955,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11854,6 +11970,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11868,6 +11985,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11882,6 +12000,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11896,6 +12015,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11910,6 +12030,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11924,6 +12045,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11938,6 +12060,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11952,6 +12075,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11966,6 +12090,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11980,6 +12105,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -11994,6 +12120,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12008,6 +12135,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12022,6 +12150,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12036,6 +12165,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12050,6 +12180,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12064,6 +12195,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12078,6 +12210,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12092,6 +12225,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12106,6 +12240,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12120,6 +12255,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12134,6 +12270,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12148,6 +12285,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12162,6 +12300,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12176,6 +12315,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12190,6 +12330,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12204,6 +12345,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12218,6 +12360,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12232,6 +12375,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12246,6 +12390,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12260,6 +12405,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12274,6 +12420,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12288,6 +12435,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12302,6 +12450,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12316,6 +12465,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12330,6 +12480,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12344,6 +12495,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12358,6 +12510,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12372,6 +12525,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12386,6 +12540,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12400,6 +12555,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12414,6 +12570,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12428,6 +12585,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12442,6 +12600,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="19" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12456,6 +12615,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12470,6 +12630,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12484,6 +12645,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12494,10 +12656,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12512,6 +12675,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12526,6 +12690,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12540,6 +12705,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12554,6 +12720,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12568,6 +12735,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12582,6 +12750,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12594,7 +12763,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/17" prefix="R" uservalue="yes" library_version="5">
+<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/22" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -12606,10 +12775,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="34" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12620,10 +12790,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="77" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12638,6 +12809,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="85" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12648,10 +12820,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23537/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23537/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12666,6 +12839,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="19" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12676,10 +12850,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23539/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23539/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12694,6 +12869,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12704,10 +12880,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23541/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23541/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12722,6 +12899,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12732,10 +12910,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23542/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23542/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12750,6 +12929,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12760,10 +12940,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23544/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23544/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12778,6 +12959,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12788,10 +12970,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23565/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23565/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12806,6 +12989,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12816,10 +13000,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23548/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23548/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12834,6 +13019,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12844,10 +13030,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23550/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23550/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12862,6 +13049,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12872,10 +13060,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23558/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23558/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12890,6 +13079,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12900,10 +13090,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26078/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26078/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12914,10 +13105,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23556/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23556/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="45" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12928,10 +13120,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23566/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23566/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="22" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12942,10 +13135,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23569/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23569/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12956,10 +13150,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23561/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23561/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12970,10 +13165,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23562/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23562/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12984,10 +13180,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23563/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23563/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -12998,10 +13195,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23573/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23573/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13012,10 +13210,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23564/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23564/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13030,6 +13229,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="18" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13040,10 +13240,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23498/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23498/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="48" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13054,10 +13255,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23491/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23491/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="36" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13072,6 +13274,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13086,6 +13289,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13100,6 +13304,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13114,6 +13319,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13124,10 +13330,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23493/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23493/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="22" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13138,10 +13345,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23567/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23567/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13156,6 +13364,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13170,6 +13379,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13180,10 +13390,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23568/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23568/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13198,6 +13409,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13208,10 +13420,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23579/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23579/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13226,6 +13439,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13236,10 +13450,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23575/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23575/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13254,6 +13469,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13268,6 +13484,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13278,10 +13495,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23580/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23580/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13296,6 +13514,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13306,10 +13525,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23581/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23581/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13324,6 +13544,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13338,6 +13559,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13352,6 +13574,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13362,10 +13585,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23586/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23586/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13380,6 +13604,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13394,6 +13619,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13408,6 +13634,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13418,10 +13645,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23591/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23591/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13432,10 +13660,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23588/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23588/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13446,10 +13675,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26109/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26109/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13460,10 +13690,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26111/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26111/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13474,10 +13705,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26113/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26113/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13488,10 +13720,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26112/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26112/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13506,6 +13739,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13520,6 +13754,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13534,6 +13769,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13544,10 +13780,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26117/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26117/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13558,10 +13795,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26121/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26121/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13572,10 +13810,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26122/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26122/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13586,10 +13825,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26116/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26116/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13600,10 +13840,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26118/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26118/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13614,10 +13855,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26119/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26119/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13628,10 +13870,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26120/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26120/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13642,10 +13885,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26129/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26129/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13656,10 +13900,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13310/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13310/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13670,10 +13915,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26123/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26123/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13684,10 +13930,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26125/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26125/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13698,10 +13945,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26127/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26127/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13712,10 +13960,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26134/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26134/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13726,10 +13975,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26126/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26126/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13740,10 +13990,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26128/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26128/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13754,10 +14005,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26131/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26131/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13768,10 +14020,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26130/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26130/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13782,10 +14035,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26133/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26133/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13867,60 +14121,60 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="4.7uF"/>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF"/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1uF"/>
-<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
+<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY23" library="mchair" deviceset="VDDA" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="L1" library="mchair" deviceset="BLM15" device="" package3d_urn="urn:adsk.eagle:package:15132/1" technology="AG601SN1D" value="BLM15AG601SN1D"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="2.2uF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="2.2uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="L1" library="mchair" deviceset="BLM15" device="" package3d_urn="urn:adsk.eagle:package:20143757/2" value="BLM15"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="X2" library="mchair" deviceset="DSC6101JI2A" device="" package3d_urn="urn:adsk.eagle:package:2674268/1" technology="-025.0000"/>
+<part name="X2" library="mchair" deviceset="DSC6101JI2A" device="" package3d_urn="urn:adsk.eagle:package:20143543/2"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J1" library="mchair" deviceset="UX60*-MB-5S?" device="8"/>
-<part name="D2" library="mchair" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
-<part name="D3" library="mchair" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
-<part name="D4" library="mchair" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
-<part name="D5" library="mchair" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
+<part name="J1" library="mchair" deviceset="UX60*-MB-5S?" device="8" package3d_urn="urn:adsk.eagle:package:20126201/2"/>
+<part name="D2" library="mchair" deviceset="LED-SMD" device="" package3d_urn="urn:adsk.eagle:package:20143364/2" technology="-BLUE" value="BLUE"/>
+<part name="D3" library="mchair" deviceset="LED-SMD" device="" package3d_urn="urn:adsk.eagle:package:20143364/2" technology="-BLUE" value="BLUE"/>
+<part name="D4" library="mchair" deviceset="LED-SMD" device="" package3d_urn="urn:adsk.eagle:package:20143364/2" technology="-BLUE" value="BLUE"/>
+<part name="D5" library="mchair" deviceset="LED-SMD" device="" package3d_urn="urn:adsk.eagle:package:20143364/2" technology="-BLUE" value="BLUE"/>
 <part name="SUPPLY48" library="mchair" deviceset="VBUS" device=""/>
 <part name="SUPPLY51" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U2" library="mchair" deviceset="S25FS*SAG" device="NFI00" technology="256"/>
+<part name="U2" library="mchair" deviceset="S25FS*SAG" device="NFI00" package3d_urn="urn:adsk.eagle:package:20143826/2" technology="256"/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
-<part name="U1" library="mchair" deviceset="STM32F7*NIH6" device="" package3d_urn="urn:adsk.eagle:package:2691673/1" technology="69"/>
+<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
+<part name="U1" library="mchair" deviceset="STM32F7*NIH6" device="" package3d_urn="urn:adsk.eagle:package:20126587/2" technology="69"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="4.7uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="mchair" deviceset="VDDA" device=""/>
@@ -13928,145 +14182,145 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME1" library="mchair" deviceset="FRAME_B_L" device=""/>
-<part name="U4" library="mchair" deviceset="USB3315C" device="" package3d_urn="urn:adsk.eagle:package:2707536/1"/>
+<part name="U4" library="mchair" deviceset="USB3315C" device="" package3d_urn="urn:adsk.eagle:package:20126513/2"/>
 <part name="SUPPLY42" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME2" library="mchair" deviceset="FRAME_B_L" device=""/>
-<part name="U3" library="mchair" deviceset="LAN8742A" device="" package3d_urn="urn:adsk.eagle:package:2707536/1"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="33"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="33"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="33"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
+<part name="U3" library="mchair" deviceset="LAN8742A" device="" package3d_urn="urn:adsk.eagle:package:20126513/2"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="33"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="33"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="33"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
 <part name="SUPPLY35" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="33"/>
-<part name="J2" library="mchair" deviceset="JTAG-MINI" device=""/>
-<part name="U6" library="mchair" deviceset="MT48LC16M16A2F4" device="" package3d_urn="urn:adsk.eagle:package:2720382/1"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="33"/>
+<part name="J2" library="mchair" deviceset="JTAG-MINI" device="" package3d_urn="urn:adsk.eagle:package:20126693/2"/>
+<part name="U6" library="mchair" deviceset="MT48LC16M16A2F4" device="" package3d_urn="urn:adsk.eagle:package:20142401/2"/>
 <part name="SUPPLY56" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY57" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY69" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY70" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY60" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY58" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY61" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY59" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="X1" library="mchair" deviceset="G83270021" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="4.7pF"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="4.7pF"/>
+<part name="X1" library="mchair" deviceset="G83270021" device="" package3d_urn="urn:adsk.eagle:package:20143465/2"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7pF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7pF"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="[NA]"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="[NA]"/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="100"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="49.9"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="49.9"/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="49.9"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="49.9"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="49.9"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="49.9"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="49.9"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="49.9"/>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="12.1k 1%"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="12.1k 1%"/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="L2" library="mchair" deviceset="BLM15" device="" package3d_urn="urn:adsk.eagle:package:15132/1" technology="PX121SN1D"/>
-<part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="470pF"/>
-<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1uF"/>
-<part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10uF"/>
-<part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="10uF"/>
+<part name="L2" library="mchair" deviceset="BLM15" device="" package3d_urn="urn:adsk.eagle:package:20143757/2"/>
+<part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="470pF"/>
+<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
+<part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="X3" library="mchair" deviceset="DSC6101JI2A" device="" package3d_urn="urn:adsk.eagle:package:2674268/1" technology="-024.0000"/>
+<part name="X3" library="mchair" deviceset="DSC6101JI2A" device="" package3d_urn="urn:adsk.eagle:package:20143543/2"/>
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="100"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="100"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100"/>
 <part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="8.06k 1%"/>
+<part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="8.06k 1%"/>
 <part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY47" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY44" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="820"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="820"/>
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF 10V"/>
 <part name="SUPPLY50" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="2.2uF"/>
-<part name="S1" library="mchair" deviceset="EVQ-P7C01P" device=""/>
-<part name="D6" library="mchair" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
-<part name="S2" library="mchair" deviceset="EVP-BFAC1A000" device=""/>
-<part name="D7" library="mchair" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
-<part name="U7" library="mchair" deviceset="MPM3620GQV-P" device=""/>
+<part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF"/>
+<part name="S1" library="mchair" deviceset="EVQ-P7C01P" device="" package3d_urn="urn:adsk.eagle:package:20143395/2"/>
+<part name="D6" library="mchair" deviceset="LED-SMD" device="" package3d_urn="urn:adsk.eagle:package:20143364/2" technology="-GREEN" value="GREEN"/>
+<part name="S2" library="mchair" deviceset="EVP-BFAC1A000" device="" package3d_urn="urn:adsk.eagle:package:20142834/2"/>
+<part name="D7" library="mchair" deviceset="LED-SMD" device="" package3d_urn="urn:adsk.eagle:package:20143364/2" technology="-GREEN" value="GREEN"/>
+<part name="U7" library="mchair" deviceset="MPM3620GQV-P" device="" package3d_urn="urn:adsk.eagle:package:20143621/2"/>
 <part name="C53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF 50V"/>
-<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="100k"/>
+<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="SUPPLY63" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="56k"/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="56k"/>
 <part name="SUPPLY65" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY64" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF 10V"/>
 <part name="SUPPLY68" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="160k 1%"/>
-<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="47k 1%"/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="160k 1%"/>
+<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k 1%"/>
 <part name="SUPPLY67" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="D1" library="mchair" deviceset="PMEG3020CPA,115" device=""/>
+<part name="D1" library="mchair" deviceset="PMEG3020CPA,115" device="" package3d_urn="urn:adsk.eagle:package:20143925/2"/>
 <part name="JP1" library="mchair" deviceset="PINHD-1X20" device="" package3d_urn="urn:adsk.eagle:package:22441/2"/>
 <part name="JP2" library="mchair" deviceset="PINHD-1X20" device="" package3d_urn="urn:adsk.eagle:package:22441/2"/>
-<part name="U5" library="mchair" deviceset="MIC5503-1.8YMT-TR" device=""/>
-<part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="U5" library="mchair" deviceset="MIC5503-1.8YMT-TR" device="" package3d_urn="urn:adsk.eagle:package:20143909/2"/>
+<part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY46" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY43" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY54" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1uF"/>
-<part name="C45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1uF"/>
+<part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
+<part name="C45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="SUPPLY55" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY52" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY53" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="U8" library="mchair" deviceset="NCP186AMX330TAG" device=""/>
-<part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1uF"/>
+<part name="U8" library="mchair" deviceset="NCP186AMX330TAG" device="" package3d_urn="urn:adsk.eagle:package:20143676/2"/>
+<part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="SUPPLY71" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1uF"/>
+<part name="C56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="SUPPLY73" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY72" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
-<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330"/>
+<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330"/>
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330"/>
+<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330"/>
 <part name="SUPPLY76" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY77" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY80" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY81" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
-<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
+<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330"/>
+<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330"/>
 <part name="SUPPLY74" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY82" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY83" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY75" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
-<part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1uF"/>
+<part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
+<part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY79" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY78" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY84" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
@@ -14092,58 +14346,194 @@ VDD12DSI connected to VCAPDSI
 VSSDSI connected to gnd</text>
 </plain>
 <instances>
-<instance part="C14" gate="G$1" x="215.9" y="81.28"/>
-<instance part="C12" gate="G$1" x="208.28" y="81.28"/>
-<instance part="C10" gate="G$1" x="200.66" y="81.28"/>
-<instance part="C8" gate="G$1" x="193.04" y="81.28"/>
-<instance part="C6" gate="G$1" x="185.42" y="81.28"/>
-<instance part="SUPPLY17" gate="GND" x="185.42" y="71.12"/>
-<instance part="SUPPLY16" gate="G$1" x="185.42" y="88.9"/>
-<instance part="SUPPLY21" gate="G$1" x="256.54" y="88.9"/>
-<instance part="SUPPLY22" gate="GND" x="256.54" y="71.12"/>
-<instance part="C24" gate="G$1" x="256.54" y="81.28"/>
-<instance part="SUPPLY24" gate="GND" x="256.54" y="40.64"/>
-<instance part="C25" gate="G$1" x="256.54" y="50.8"/>
-<instance part="C27" gate="G$1" x="264.16" y="50.8"/>
-<instance part="SUPPLY23" gate="G$1" x="256.54" y="58.42"/>
-<instance part="C4" gate="G$1" x="106.68" y="78.74"/>
-<instance part="L1" gate="G$1" x="109.22" y="96.52" rot="MR0"/>
-<instance part="C3" gate="G$1" x="99.06" y="33.02"/>
-<instance part="C5" gate="G$1" x="109.22" y="33.02"/>
-<instance part="SUPPLY3" gate="GND" x="99.06" y="25.4"/>
-<instance part="SUPPLY6" gate="GND" x="109.22" y="25.4"/>
-<instance part="X2" gate="G$1" x="243.84" y="203.2"/>
-<instance part="SUPPLY25" gate="G$1" x="264.16" y="200.66"/>
-<instance part="SUPPLY20" gate="GND" x="228.6" y="193.04"/>
-<instance part="C26" gate="G$1" x="264.16" y="193.04"/>
-<instance part="SUPPLY26" gate="GND" x="264.16" y="185.42"/>
-<instance part="U1" gate="A" x="114.3" y="195.58"/>
-<instance part="U1" gate="B" x="322.58" y="205.74"/>
-<instance part="U1" gate="C" x="149.86" y="48.26"/>
-<instance part="SUPPLY15" gate="GND" x="175.26" y="25.4"/>
-<instance part="SUPPLY14" gate="G$1" x="175.26" y="93.98"/>
-<instance part="C16" gate="G$1" x="223.52" y="81.28"/>
-<instance part="C18" gate="G$1" x="231.14" y="81.28"/>
-<instance part="C20" gate="G$1" x="238.76" y="81.28"/>
-<instance part="C7" gate="G$1" x="185.42" y="50.8"/>
-<instance part="SUPPLY18" gate="G$1" x="185.42" y="58.42"/>
-<instance part="SUPPLY19" gate="GND" x="185.42" y="40.64"/>
-<instance part="C9" gate="G$1" x="193.04" y="50.8"/>
-<instance part="C11" gate="G$1" x="200.66" y="50.8"/>
-<instance part="C13" gate="G$1" x="208.28" y="50.8"/>
-<instance part="C15" gate="G$1" x="215.9" y="50.8"/>
-<instance part="C17" gate="G$1" x="223.52" y="50.8"/>
-<instance part="C19" gate="G$1" x="231.14" y="50.8"/>
-<instance part="C21" gate="G$1" x="238.76" y="50.8"/>
-<instance part="C28" gate="G$1" x="266.7" y="81.28"/>
-<instance part="SUPPLY8" gate="GND" x="121.92" y="88.9" rot="R270"/>
-<instance part="SUPPLY9" gate="GND" x="121.92" y="81.28" rot="R270"/>
-<instance part="SUPPLY12" gate="G$1" x="124.46" y="96.52"/>
-<instance part="SUPPLY10" gate="G$1" x="121.92" y="73.66" rot="R90"/>
-<instance part="SUPPLY4" gate="G$1" x="101.6" y="101.6"/>
-<instance part="SUPPLY5" gate="GND" x="106.68" y="68.58"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
+<instance part="C14" gate="G$1" x="215.9" y="81.28" smashed="yes">
+<attribute name="NAME" x="216.916" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="216.916" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C12" gate="G$1" x="208.28" y="81.28" smashed="yes">
+<attribute name="NAME" x="209.296" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="209.296" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="200.66" y="81.28" smashed="yes">
+<attribute name="NAME" x="201.676" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="201.676" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="193.04" y="81.28" smashed="yes">
+<attribute name="NAME" x="194.056" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="194.056" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="185.42" y="81.28" smashed="yes">
+<attribute name="NAME" x="186.436" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.436" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY17" gate="GND" x="185.42" y="71.12" smashed="yes">
+<attribute name="VALUE" x="183.515" y="67.945" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY16" gate="G$1" x="185.42" y="88.9" smashed="yes">
+<attribute name="VALUE" x="183.515" y="92.075" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY21" gate="G$1" x="256.54" y="88.9" smashed="yes">
+<attribute name="VALUE" x="254.635" y="92.075" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY22" gate="GND" x="256.54" y="71.12" smashed="yes">
+<attribute name="VALUE" x="254.635" y="67.945" size="1.778" layer="96"/>
+</instance>
+<instance part="C24" gate="G$1" x="256.54" y="81.28" smashed="yes">
+<attribute name="NAME" x="257.556" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.556" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY24" gate="GND" x="256.54" y="40.64" smashed="yes">
+<attribute name="VALUE" x="254.635" y="37.465" size="1.778" layer="96"/>
+</instance>
+<instance part="C25" gate="G$1" x="256.54" y="50.8" smashed="yes">
+<attribute name="NAME" x="257.556" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.556" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="264.16" y="50.8" smashed="yes">
+<attribute name="NAME" x="265.176" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="265.176" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY23" gate="G$1" x="256.54" y="58.42" smashed="yes">
+<attribute name="VALUE" x="254.635" y="61.595" size="1.778" layer="96"/>
+</instance>
+<instance part="C4" gate="G$1" x="106.68" y="78.74" smashed="yes">
+<attribute name="NAME" x="107.696" y="79.375" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.696" y="74.549" size="1.778" layer="96"/>
+</instance>
+<instance part="L1" gate="G$1" x="109.22" y="96.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="113.03" y="97.8916" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="113.03" y="93.599" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C3" gate="G$1" x="99.06" y="33.02" smashed="yes">
+<attribute name="NAME" x="100.076" y="33.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.076" y="28.829" size="1.778" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="109.22" y="33.02" smashed="yes">
+<attribute name="NAME" x="110.236" y="33.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.236" y="28.829" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="99.06" y="25.4" smashed="yes">
+<attribute name="VALUE" x="97.155" y="22.225" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="109.22" y="25.4" smashed="yes">
+<attribute name="VALUE" x="107.315" y="22.225" size="1.778" layer="96"/>
+</instance>
+<instance part="X2" gate="G$1" x="243.84" y="203.2" smashed="yes">
+<attribute name="NAME" x="236.22" y="210.82" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="236.22" y="195.58" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY25" gate="G$1" x="264.16" y="200.66" smashed="yes">
+<attribute name="VALUE" x="262.255" y="203.835" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY20" gate="GND" x="228.6" y="193.04" smashed="yes">
+<attribute name="VALUE" x="226.695" y="189.865" size="1.778" layer="96"/>
+</instance>
+<instance part="C26" gate="G$1" x="264.16" y="193.04" smashed="yes">
+<attribute name="NAME" x="265.176" y="193.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="265.176" y="188.849" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY26" gate="GND" x="264.16" y="185.42" smashed="yes">
+<attribute name="VALUE" x="262.255" y="182.245" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="A" x="114.3" y="195.58" smashed="yes">
+<attribute name="NAME" x="88.9" y="266.7" size="1.778" layer="94" align="top-left"/>
+<attribute name="VALUE" x="88.9" y="132.08" size="1.778" layer="94"/>
+</instance>
+<instance part="U1" gate="B" x="322.58" y="205.74" smashed="yes">
+<attribute name="NAME" x="297.18" y="254" size="1.778" layer="94" align="top-left"/>
+<attribute name="VALUE" x="297.18" y="144.78" size="1.778" layer="94"/>
+</instance>
+<instance part="U1" gate="C" x="149.86" y="48.26" smashed="yes">
+<attribute name="NAME" x="134.62" y="96.52" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="134.62" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY15" gate="GND" x="175.26" y="25.4" smashed="yes">
+<attribute name="VALUE" x="173.355" y="22.225" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY14" gate="G$1" x="175.26" y="93.98" smashed="yes">
+<attribute name="VALUE" x="173.355" y="97.155" size="1.778" layer="96"/>
+</instance>
+<instance part="C16" gate="G$1" x="223.52" y="81.28" smashed="yes">
+<attribute name="NAME" x="224.536" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="224.536" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C18" gate="G$1" x="231.14" y="81.28" smashed="yes">
+<attribute name="NAME" x="232.156" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.156" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C20" gate="G$1" x="238.76" y="81.28" smashed="yes">
+<attribute name="NAME" x="239.776" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="239.776" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="185.42" y="50.8" smashed="yes">
+<attribute name="NAME" x="186.436" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.436" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY18" gate="G$1" x="185.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="183.515" y="61.595" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY19" gate="GND" x="185.42" y="40.64" smashed="yes">
+<attribute name="VALUE" x="183.515" y="37.465" size="1.778" layer="96"/>
+</instance>
+<instance part="C9" gate="G$1" x="193.04" y="50.8" smashed="yes">
+<attribute name="NAME" x="194.056" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="194.056" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="200.66" y="50.8" smashed="yes">
+<attribute name="NAME" x="201.676" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="201.676" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C13" gate="G$1" x="208.28" y="50.8" smashed="yes">
+<attribute name="NAME" x="209.296" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="209.296" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C15" gate="G$1" x="215.9" y="50.8" smashed="yes">
+<attribute name="NAME" x="216.916" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="216.916" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C17" gate="G$1" x="223.52" y="50.8" smashed="yes">
+<attribute name="NAME" x="224.536" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="224.536" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C19" gate="G$1" x="231.14" y="50.8" smashed="yes">
+<attribute name="NAME" x="232.156" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.156" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C21" gate="G$1" x="238.76" y="50.8" smashed="yes">
+<attribute name="NAME" x="239.776" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="239.776" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="C28" gate="G$1" x="266.7" y="81.28" smashed="yes">
+<attribute name="NAME" x="267.716" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="267.716" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="GND" x="121.92" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="118.745" y="90.805" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY9" gate="GND" x="121.92" y="81.28" smashed="yes" rot="R270">
+<attribute name="VALUE" x="118.745" y="83.185" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY12" gate="G$1" x="124.46" y="96.52" smashed="yes">
+<attribute name="VALUE" x="122.555" y="99.695" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="121.92" y="73.66" smashed="yes" rot="R90">
+<attribute name="VALUE" x="118.745" y="71.755" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="101.6" y="101.6" smashed="yes">
+<attribute name="VALUE" x="99.695" y="104.775" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="106.68" y="68.58" smashed="yes">
+<attribute name="VALUE" x="104.775" y="65.405" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="325.12" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="337.82" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="340.36" y="19.05" size="2.54" layer="94" font="vector"/>
+<attribute name="TEAM" x="326.39" y="34.29" size="3.048" layer="94" ratio="10" align="top-left"/>
+<attribute name="REVISION" x="397.51" y="6.35" size="2.54" layer="94"/>
+<attribute name="SHEET_HEADLINE" x="326.39" y="6.35" size="2.54" layer="94"/>
+</instance>
 <instance part="X1" gate="G$1" x="60.96" y="137.16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="62.170128125" y="141.9352" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="59.055" y="139.9032" size="1.778" layer="96"/>
@@ -14156,22 +14546,62 @@ VSSDSI connected to gnd</text>
 <attribute name="NAME" x="47.93089375" y="127.508" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.30191875" y="125.476" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="43.18" y="142.24" rot="R270"/>
-<instance part="SUPPLY2" gate="GND" x="43.18" y="132.08" rot="R270"/>
-<instance part="R6" gate="G$1" x="368.3" y="154.94"/>
-<instance part="R5" gate="G$1" x="368.3" y="162.56"/>
-<instance part="SUPPLY29" gate="GND" x="378.46" y="154.94" rot="R90"/>
-<instance part="SUPPLY28" gate="G$1" x="375.92" y="162.56" rot="R270"/>
-<instance part="R4" gate="G$1" x="360.68" y="142.24" rot="R270"/>
-<instance part="SUPPLY27" gate="G$1" x="368.3" y="142.24"/>
-<instance part="R2" gate="G$1" x="127" y="20.32" rot="R90"/>
-<instance part="SUPPLY13" gate="GND" x="127" y="12.7"/>
-<instance part="R1" gate="G$1" x="119.38" y="20.32" rot="R90"/>
-<instance part="SUPPLY7" gate="G$1" x="119.38" y="12.7" rot="R180"/>
-<instance part="R3" gate="G$1" x="276.86" y="205.74"/>
-<instance part="C22" gate="G$1" x="246.38" y="81.28"/>
-<instance part="C23" gate="G$1" x="246.38" y="50.8"/>
-<instance part="SUPPLY11" gate="GND" x="121.92" y="48.26" rot="R270"/>
+<instance part="SUPPLY1" gate="GND" x="43.18" y="142.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="40.005" y="144.145" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="43.18" y="132.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="40.005" y="133.985" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R6" gate="G$1" x="368.3" y="154.94" smashed="yes">
+<attribute name="NAME" x="364.49" y="156.4386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="364.49" y="151.638" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="368.3" y="162.56" smashed="yes">
+<attribute name="NAME" x="364.49" y="164.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="364.49" y="159.258" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY29" gate="GND" x="378.46" y="154.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="381.635" y="153.035" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY28" gate="G$1" x="375.92" y="162.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="379.095" y="164.465" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R4" gate="G$1" x="360.68" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.1786" y="146.05" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="357.378" y="146.05" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY27" gate="G$1" x="368.3" y="142.24" smashed="yes">
+<attribute name="VALUE" x="366.395" y="145.415" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="127" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.5014" y="16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.302" y="16.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY13" gate="GND" x="127" y="12.7" smashed="yes">
+<attribute name="VALUE" x="125.095" y="9.525" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="119.38" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.8814" y="16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="122.682" y="16.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="119.38" y="12.7" smashed="yes" rot="R180">
+<attribute name="VALUE" x="121.285" y="9.525" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R3" gate="G$1" x="276.86" y="205.74" smashed="yes">
+<attribute name="NAME" x="273.05" y="207.2386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="273.05" y="202.438" size="1.778" layer="96"/>
+</instance>
+<instance part="C22" gate="G$1" x="246.38" y="81.28" smashed="yes">
+<attribute name="NAME" x="247.396" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.396" y="77.089" size="1.778" layer="96"/>
+</instance>
+<instance part="C23" gate="G$1" x="246.38" y="50.8" smashed="yes">
+<attribute name="NAME" x="247.396" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.396" y="46.609" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY11" gate="GND" x="121.92" y="48.26" smashed="yes" rot="R270">
+<attribute name="VALUE" x="118.745" y="50.165" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15388,91 +15818,315 @@ is extra room no</text>
 <text x="137.16" y="266.7" size="2.54" layer="97">USB HS Interface</text>
 </plain>
 <instances>
-<instance part="U2" gate="G$1" x="71.12" y="218.44"/>
-<instance part="SUPPLY30" gate="G$1" x="91.44" y="233.68"/>
-<instance part="SUPPLY31" gate="GND" x="91.44" y="208.28"/>
-<instance part="C29" gate="G$1" x="91.44" y="220.98"/>
-<instance part="R10" gate="G$1" x="71.12" y="231.14" rot="R180"/>
-<instance part="J1" gate="G$1" x="276.86" y="231.14"/>
-<instance part="SUPPLY48" gate="G$1" x="259.08" y="254"/>
-<instance part="SUPPLY51" gate="GND" x="266.7" y="226.06" rot="R270"/>
-<instance part="U4" gate="G$1" x="213.36" y="231.14"/>
-<instance part="SUPPLY42" gate="GND" x="233.68" y="203.2"/>
-<instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="FRAME2" gate="G$2" x="325.12" y="0"/>
-<instance part="U3" gate="G$1" x="129.54" y="86.36"/>
-<instance part="R7" gate="G$1" x="50.8" y="101.6"/>
-<instance part="R8" gate="G$1" x="50.8" y="93.98"/>
-<instance part="R11" gate="G$1" x="76.2" y="116.84" rot="R90"/>
-<instance part="R14" gate="G$1" x="91.44" y="116.84" rot="R90"/>
-<instance part="R15" gate="G$1" x="99.06" y="116.84" rot="R90"/>
-<instance part="R17" gate="G$1" x="106.68" y="116.84" rot="R90"/>
-<instance part="SUPPLY35" gate="GND" x="152.4" y="53.34"/>
-<instance part="R12" gate="G$1" x="83.82" y="116.84" rot="R90"/>
-<instance part="R16" gate="G$1" x="99.06" y="55.88" rot="R90"/>
-<instance part="SUPPLY33" gate="G$1" x="106.68" y="127"/>
-<instance part="SUPPLY32" gate="GND" x="99.06" y="48.26"/>
-<instance part="R9" gate="G$1" x="50.8" y="86.36"/>
-<instance part="U6" gate="G$1" x="320.04" y="121.92"/>
-<instance part="SUPPLY56" gate="GND" x="340.36" y="83.82"/>
-<instance part="SUPPLY57" gate="G$1" x="342.9" y="104.14"/>
-<instance part="C46" gate="G$1" x="363.22" y="111.76"/>
-<instance part="C48" gate="G$1" x="370.84" y="111.76"/>
-<instance part="C50" gate="G$1" x="378.46" y="111.76"/>
-<instance part="C47" gate="G$1" x="363.22" y="83.82"/>
-<instance part="C49" gate="G$1" x="370.84" y="83.82"/>
-<instance part="C51" gate="G$1" x="378.46" y="83.82"/>
-<instance part="C52" gate="G$1" x="386.08" y="83.82"/>
-<instance part="SUPPLY60" gate="G$1" x="363.22" y="91.44"/>
-<instance part="SUPPLY58" gate="G$1" x="363.22" y="119.38"/>
-<instance part="SUPPLY61" gate="GND" x="363.22" y="73.66"/>
-<instance part="SUPPLY59" gate="GND" x="363.22" y="101.6"/>
-<instance part="R13" gate="G$1" x="88.9" y="63.5" rot="R180"/>
-<instance part="R18" gate="G$1" x="154.94" y="119.38" rot="R90"/>
-<instance part="R20" gate="G$1" x="162.56" y="119.38" rot="R90"/>
-<instance part="R21" gate="G$1" x="170.18" y="119.38" rot="R90"/>
-<instance part="R23" gate="G$1" x="177.8" y="119.38" rot="R90"/>
-<instance part="SUPPLY36" gate="G$1" x="154.94" y="127"/>
-<instance part="R19" gate="G$1" x="157.48" y="86.36" rot="R180"/>
-<instance part="SUPPLY37" gate="GND" x="167.64" y="86.36" rot="R90"/>
-<instance part="L2" gate="G$1" x="200.66" y="76.2" rot="MR180"/>
-<instance part="C30" gate="G$1" x="160.02" y="66.04"/>
-<instance part="C31" gate="G$1" x="170.18" y="66.04"/>
-<instance part="C32" gate="G$1" x="177.8" y="66.04"/>
-<instance part="C33" gate="G$1" x="185.42" y="66.04"/>
-<instance part="C35" gate="G$1" x="193.04" y="66.04"/>
-<instance part="C36" gate="G$1" x="208.28" y="66.04"/>
-<instance part="C37" gate="G$1" x="215.9" y="66.04"/>
-<instance part="SUPPLY40" gate="G$1" x="220.98" y="86.36"/>
-<instance part="X3" gate="G$1" x="154.94" y="208.28"/>
-<instance part="SUPPLY38" gate="G$1" x="193.04" y="205.74"/>
-<instance part="SUPPLY34" gate="GND" x="139.7" y="200.66"/>
-<instance part="C34" gate="G$1" x="193.04" y="198.12"/>
-<instance part="SUPPLY39" gate="GND" x="193.04" y="190.5"/>
-<instance part="R22" gate="G$1" x="175.26" y="210.82"/>
-<instance part="SUPPLY45" gate="G$1" x="246.38" y="226.06"/>
-<instance part="C41" gate="G$1" x="254" y="213.36"/>
-<instance part="R24" gate="G$1" x="233.68" y="256.54"/>
-<instance part="SUPPLY41" gate="GND" x="226.06" y="256.54" rot="R270"/>
-<instance part="C40" gate="G$1" x="248.92" y="251.46"/>
-<instance part="SUPPLY47" gate="GND" x="248.92" y="243.84"/>
-<instance part="SUPPLY44" gate="G$1" x="243.84" y="259.08"/>
-<instance part="R25" gate="G$1" x="241.3" y="238.76" rot="R180"/>
-<instance part="C43" gate="G$1" x="264.16" y="248.92"/>
-<instance part="SUPPLY50" gate="GND" x="264.16" y="241.3"/>
-<instance part="C42" gate="G$1" x="261.62" y="213.36"/>
-<instance part="U5" gate="G$1" x="294.64" y="205.74" rot="MR0"/>
-<instance part="C38" gate="G$1" x="238.76" y="213.36"/>
-<instance part="C39" gate="G$1" x="246.38" y="213.36"/>
-<instance part="SUPPLY46" gate="GND" x="246.38" y="203.2"/>
-<instance part="SUPPLY49" gate="GND" x="261.62" y="203.2"/>
-<instance part="SUPPLY43" gate="GND" x="238.76" y="203.2"/>
-<instance part="SUPPLY54" gate="G$1" x="312.42" y="215.9"/>
-<instance part="C44" gate="G$1" x="274.32" y="205.74" rot="MR0"/>
-<instance part="C45" gate="G$1" x="312.42" y="205.74"/>
-<instance part="SUPPLY55" gate="GND" x="312.42" y="198.12"/>
-<instance part="SUPPLY52" gate="GND" x="274.32" y="198.12"/>
-<instance part="SUPPLY53" gate="G$1" x="279.4" y="205.74"/>
+<instance part="U2" gate="G$1" x="71.12" y="218.44" smashed="yes">
+<attribute name="NAME" x="60.96" y="228.6" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="60.96" y="205.74" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY30" gate="G$1" x="91.44" y="233.68" smashed="yes">
+<attribute name="VALUE" x="89.535" y="236.855" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY31" gate="GND" x="91.44" y="208.28" smashed="yes">
+<attribute name="VALUE" x="89.535" y="205.105" size="1.778" layer="96"/>
+</instance>
+<instance part="C29" gate="G$1" x="91.44" y="220.98" smashed="yes">
+<attribute name="NAME" x="92.456" y="221.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.456" y="216.789" size="1.778" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="71.12" y="231.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.93" y="229.6414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="74.93" y="234.442" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="J1" gate="G$1" x="276.86" y="231.14" smashed="yes">
+<attribute name="NAME" x="274.32" y="241.3" size="2.54" layer="95" font="vector"/>
+<attribute name="VALUE" x="274.32" y="220.98" size="2.54" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="SUPPLY48" gate="G$1" x="259.08" y="254" smashed="yes">
+<attribute name="VALUE" x="257.175" y="257.175" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY51" gate="GND" x="266.7" y="226.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="263.525" y="227.965" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="U4" gate="G$1" x="213.36" y="231.14" smashed="yes">
+<attribute name="NAME" x="200.66" y="251.46" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="200.66" y="205.74" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY42" gate="GND" x="233.68" y="203.2" smashed="yes">
+<attribute name="VALUE" x="231.775" y="200.025" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME2" gate="G$2" x="325.12" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="337.82" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="340.36" y="19.05" size="2.54" layer="94" font="vector"/>
+<attribute name="TEAM" x="326.39" y="34.29" size="3.048" layer="94" ratio="10" align="top-left"/>
+<attribute name="REVISION" x="397.51" y="6.35" size="2.54" layer="94"/>
+<attribute name="SHEET_HEADLINE" x="326.39" y="6.35" size="2.54" layer="94"/>
+</instance>
+<instance part="U3" gate="G$1" x="129.54" y="86.36" smashed="yes">
+<attribute name="NAME" x="114.3" y="111.76" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="114.3" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="50.8" y="101.6" smashed="yes">
+<attribute name="NAME" x="46.99" y="103.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="98.298" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="50.8" y="93.98" smashed="yes">
+<attribute name="NAME" x="46.99" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="90.678" size="1.778" layer="96"/>
+</instance>
+<instance part="R11" gate="G$1" x="76.2" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.7014" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="79.502" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="91.44" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.9414" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="94.742" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R15" gate="G$1" x="99.06" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.5614" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.362" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R17" gate="G$1" x="106.68" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.1814" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY35" gate="GND" x="152.4" y="53.34" smashed="yes">
+<attribute name="VALUE" x="150.495" y="50.165" size="1.778" layer="96"/>
+</instance>
+<instance part="R12" gate="G$1" x="83.82" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.3214" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="87.122" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R16" gate="G$1" x="99.06" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.5614" y="52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.362" y="52.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY33" gate="G$1" x="106.68" y="127" smashed="yes">
+<attribute name="VALUE" x="104.775" y="130.175" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY32" gate="GND" x="99.06" y="48.26" smashed="yes">
+<attribute name="VALUE" x="97.155" y="45.085" size="1.778" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="50.8" y="86.36" smashed="yes">
+<attribute name="NAME" x="46.99" y="87.8586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="83.058" size="1.778" layer="96"/>
+</instance>
+<instance part="U6" gate="G$1" x="320.04" y="121.92" smashed="yes">
+<attribute name="NAME" x="307.34" y="157.48" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="307.34" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY56" gate="GND" x="340.36" y="83.82" smashed="yes">
+<attribute name="VALUE" x="338.455" y="80.645" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY57" gate="G$1" x="342.9" y="104.14" smashed="yes">
+<attribute name="VALUE" x="340.995" y="107.315" size="1.778" layer="96"/>
+</instance>
+<instance part="C46" gate="G$1" x="363.22" y="111.76" smashed="yes">
+<attribute name="NAME" x="364.236" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="364.236" y="107.569" size="1.778" layer="96"/>
+</instance>
+<instance part="C48" gate="G$1" x="370.84" y="111.76" smashed="yes">
+<attribute name="NAME" x="371.856" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="371.856" y="107.569" size="1.778" layer="96"/>
+</instance>
+<instance part="C50" gate="G$1" x="378.46" y="111.76" smashed="yes">
+<attribute name="NAME" x="379.476" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="379.476" y="107.569" size="1.778" layer="96"/>
+</instance>
+<instance part="C47" gate="G$1" x="363.22" y="83.82" smashed="yes">
+<attribute name="NAME" x="364.236" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="364.236" y="79.629" size="1.778" layer="96"/>
+</instance>
+<instance part="C49" gate="G$1" x="370.84" y="83.82" smashed="yes">
+<attribute name="NAME" x="371.856" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="371.856" y="79.629" size="1.778" layer="96"/>
+</instance>
+<instance part="C51" gate="G$1" x="378.46" y="83.82" smashed="yes">
+<attribute name="NAME" x="379.476" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="379.476" y="79.629" size="1.778" layer="96"/>
+</instance>
+<instance part="C52" gate="G$1" x="386.08" y="83.82" smashed="yes">
+<attribute name="NAME" x="387.096" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="387.096" y="79.629" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY60" gate="G$1" x="363.22" y="91.44" smashed="yes">
+<attribute name="VALUE" x="361.315" y="94.615" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY58" gate="G$1" x="363.22" y="119.38" smashed="yes">
+<attribute name="VALUE" x="361.315" y="122.555" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY61" gate="GND" x="363.22" y="73.66" smashed="yes">
+<attribute name="VALUE" x="361.315" y="70.485" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY59" gate="GND" x="363.22" y="101.6" smashed="yes">
+<attribute name="VALUE" x="361.315" y="98.425" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="88.9" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="92.71" y="62.0014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="92.71" y="66.802" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R18" gate="G$1" x="154.94" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.4414" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="115.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R20" gate="G$1" x="162.56" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="161.0614" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.862" y="115.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R21" gate="G$1" x="170.18" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="168.6814" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="173.482" y="115.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R23" gate="G$1" x="177.8" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="176.3014" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="181.102" y="115.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY36" gate="G$1" x="154.94" y="127" smashed="yes">
+<attribute name="VALUE" x="153.035" y="130.175" size="1.778" layer="96"/>
+</instance>
+<instance part="R19" gate="G$1" x="157.48" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="161.29" y="84.8614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="161.29" y="89.662" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY37" gate="GND" x="167.64" y="86.36" smashed="yes" rot="R90">
+<attribute name="VALUE" x="170.815" y="84.455" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="L2" gate="G$1" x="200.66" y="76.2" smashed="yes" rot="MR180">
+<attribute name="NAME" x="196.85" y="74.8284" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="196.85" y="79.121" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="C30" gate="G$1" x="160.02" y="66.04" smashed="yes">
+<attribute name="NAME" x="161.036" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.036" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="C31" gate="G$1" x="170.18" y="66.04" smashed="yes">
+<attribute name="NAME" x="171.196" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.196" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="C32" gate="G$1" x="177.8" y="66.04" smashed="yes">
+<attribute name="NAME" x="178.816" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="178.816" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="C33" gate="G$1" x="185.42" y="66.04" smashed="yes">
+<attribute name="NAME" x="186.436" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.436" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="C35" gate="G$1" x="193.04" y="66.04" smashed="yes">
+<attribute name="NAME" x="194.056" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="194.056" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="C36" gate="G$1" x="208.28" y="66.04" smashed="yes">
+<attribute name="NAME" x="209.296" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="209.296" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="C37" gate="G$1" x="215.9" y="66.04" smashed="yes">
+<attribute name="NAME" x="216.916" y="66.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="216.916" y="61.849" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY40" gate="G$1" x="220.98" y="86.36" smashed="yes">
+<attribute name="VALUE" x="219.075" y="89.535" size="1.778" layer="96"/>
+</instance>
+<instance part="X3" gate="G$1" x="154.94" y="208.28" smashed="yes">
+<attribute name="NAME" x="147.32" y="215.9" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="147.32" y="200.66" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY38" gate="G$1" x="193.04" y="205.74" smashed="yes">
+<attribute name="VALUE" x="191.135" y="208.915" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY34" gate="GND" x="139.7" y="200.66" smashed="yes">
+<attribute name="VALUE" x="137.795" y="197.485" size="1.778" layer="96"/>
+</instance>
+<instance part="C34" gate="G$1" x="193.04" y="198.12" smashed="yes">
+<attribute name="NAME" x="194.056" y="198.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="194.056" y="193.929" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY39" gate="GND" x="193.04" y="190.5" smashed="yes">
+<attribute name="VALUE" x="191.135" y="187.325" size="1.778" layer="96"/>
+</instance>
+<instance part="R22" gate="G$1" x="175.26" y="210.82" smashed="yes">
+<attribute name="NAME" x="171.45" y="212.3186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.45" y="207.518" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY45" gate="G$1" x="246.38" y="226.06" smashed="yes">
+<attribute name="VALUE" x="244.475" y="229.235" size="1.778" layer="96"/>
+</instance>
+<instance part="C41" gate="G$1" x="254" y="213.36" smashed="yes">
+<attribute name="NAME" x="255.016" y="213.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.016" y="209.169" size="1.778" layer="96"/>
+</instance>
+<instance part="R24" gate="G$1" x="233.68" y="256.54" smashed="yes">
+<attribute name="NAME" x="229.87" y="258.0386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="229.87" y="253.238" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY41" gate="GND" x="226.06" y="256.54" smashed="yes" rot="R270">
+<attribute name="VALUE" x="222.885" y="258.445" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C40" gate="G$1" x="248.92" y="251.46" smashed="yes">
+<attribute name="NAME" x="249.936" y="252.095" size="1.778" layer="95"/>
+<attribute name="VALUE" x="249.936" y="247.269" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY47" gate="GND" x="248.92" y="243.84" smashed="yes">
+<attribute name="VALUE" x="247.015" y="240.665" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY44" gate="G$1" x="243.84" y="259.08" smashed="yes">
+<attribute name="VALUE" x="241.935" y="262.255" size="1.778" layer="96"/>
+</instance>
+<instance part="R25" gate="G$1" x="241.3" y="238.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="245.11" y="237.2614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="245.11" y="242.062" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C43" gate="G$1" x="264.16" y="248.92" smashed="yes">
+<attribute name="NAME" x="265.176" y="249.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="265.176" y="244.729" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY50" gate="GND" x="264.16" y="241.3" smashed="yes">
+<attribute name="VALUE" x="262.255" y="238.125" size="1.778" layer="96"/>
+</instance>
+<instance part="C42" gate="G$1" x="261.62" y="213.36" smashed="yes">
+<attribute name="NAME" x="262.636" y="213.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="262.636" y="209.169" size="1.778" layer="96"/>
+</instance>
+<instance part="U5" gate="G$1" x="294.64" y="205.74" smashed="yes" rot="MR0">
+<attribute name="NAME" x="304.8" y="215.9" size="1.778" layer="95" rot="MR0" align="top-left"/>
+<attribute name="VALUE" x="304.8" y="195.58" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C38" gate="G$1" x="238.76" y="213.36" smashed="yes">
+<attribute name="NAME" x="239.776" y="213.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="239.776" y="209.169" size="1.778" layer="96"/>
+</instance>
+<instance part="C39" gate="G$1" x="246.38" y="213.36" smashed="yes">
+<attribute name="NAME" x="247.396" y="213.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.396" y="209.169" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY46" gate="GND" x="246.38" y="203.2" smashed="yes">
+<attribute name="VALUE" x="244.475" y="200.025" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY49" gate="GND" x="261.62" y="203.2" smashed="yes">
+<attribute name="VALUE" x="259.715" y="200.025" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY43" gate="GND" x="238.76" y="203.2" smashed="yes">
+<attribute name="VALUE" x="236.855" y="200.025" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY54" gate="G$1" x="312.42" y="215.9" smashed="yes">
+<attribute name="VALUE" x="310.515" y="219.075" size="1.778" layer="96"/>
+</instance>
+<instance part="C44" gate="G$1" x="274.32" y="205.74" smashed="yes" rot="MR0">
+<attribute name="NAME" x="273.304" y="206.375" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="273.304" y="201.549" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C45" gate="G$1" x="312.42" y="205.74" smashed="yes">
+<attribute name="NAME" x="313.436" y="206.375" size="1.778" layer="95"/>
+<attribute name="VALUE" x="313.436" y="201.549" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY55" gate="GND" x="312.42" y="198.12" smashed="yes">
+<attribute name="VALUE" x="310.515" y="194.945" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY52" gate="GND" x="274.32" y="198.12" smashed="yes">
+<attribute name="VALUE" x="272.415" y="194.945" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY53" gate="G$1" x="279.4" y="205.74" smashed="yes">
+<attribute name="VALUE" x="277.495" y="208.915" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16537,61 +17191,204 @@ mode button</text>
 <text x="256.54" y="243.84" size="2.54" layer="97">LEDs and Buttons</text>
 </plain>
 <instances>
-<instance part="JP1" gate="A" x="71.12" y="205.74"/>
-<instance part="JP2" gate="A" x="86.36" y="205.74" rot="MR0"/>
-<instance part="SUPPLY66" gate="G$1" x="106.68" y="231.14"/>
-<instance part="FRAME3" gate="G$1" x="0" y="0"/>
-<instance part="FRAME3" gate="G$2" x="325.12" y="0"/>
-<instance part="J2" gate="G$1" x="177.8" y="218.44"/>
-<instance part="SUPPLY69" gate="GND" x="149.86" y="208.28"/>
-<instance part="SUPPLY70" gate="G$1" x="154.94" y="228.6"/>
-<instance part="U7" gate="G$1" x="119.38" y="76.2"/>
-<instance part="C53" gate="G$1" x="86.36" y="81.28" rot="MR0"/>
-<instance part="R27" gate="G$1" x="96.52" y="78.74"/>
-<instance part="SUPPLY63" gate="GND" x="86.36" y="73.66"/>
-<instance part="R26" gate="G$1" x="93.98" y="66.04" rot="R90"/>
-<instance part="SUPPLY65" gate="GND" x="101.6" y="58.42"/>
-<instance part="SUPPLY64" gate="GND" x="93.98" y="58.42"/>
-<instance part="C54" gate="G$1" x="147.32" y="71.12"/>
-<instance part="SUPPLY68" gate="GND" x="147.32" y="63.5"/>
-<instance part="R28" gate="G$1" x="139.7" y="71.12" rot="R90"/>
-<instance part="R29" gate="G$1" x="139.7" y="60.96" rot="R90"/>
-<instance part="SUPPLY67" gate="GND" x="139.7" y="53.34"/>
-<instance part="D1" gate="G$1" x="66.04" y="86.36" rot="MR180"/>
-<instance part="U8" gate="G$1" x="185.42" y="73.66"/>
-<instance part="C55" gate="G$1" x="162.56" y="71.12"/>
-<instance part="SUPPLY71" gate="GND" x="162.56" y="60.96"/>
-<instance part="C56" gate="G$1" x="205.74" y="71.12"/>
-<instance part="SUPPLY73" gate="GND" x="205.74" y="63.5"/>
-<instance part="SUPPLY72" gate="G$1" x="205.74" y="81.28"/>
-<instance part="SUPPLY62" gate="G$1" x="53.34" y="83.82" rot="R90"/>
-<instance part="D2" gate="G$1" x="287.02" y="228.6"/>
-<instance part="D3" gate="G$1" x="287.02" y="215.9"/>
-<instance part="D4" gate="G$1" x="330.2" y="228.6"/>
-<instance part="D5" gate="G$1" x="330.2" y="215.9"/>
-<instance part="S1" gate="G$1" x="289.56" y="193.04"/>
-<instance part="D6" gate="G$1" x="332.74" y="198.12"/>
-<instance part="S2" gate="G$1" x="289.56" y="165.1" rot="MR0"/>
-<instance part="D7" gate="G$1" x="342.9" y="175.26"/>
-<instance part="R30" gate="G$1" x="299.72" y="228.6"/>
-<instance part="R31" gate="G$1" x="299.72" y="215.9"/>
-<instance part="R32" gate="G$1" x="342.9" y="228.6"/>
-<instance part="R33" gate="G$1" x="342.9" y="215.9"/>
-<instance part="SUPPLY76" gate="GND" x="281.94" y="228.6" rot="R270"/>
-<instance part="SUPPLY77" gate="GND" x="281.94" y="215.9" rot="R270"/>
-<instance part="SUPPLY80" gate="GND" x="325.12" y="228.6" rot="R270"/>
-<instance part="SUPPLY81" gate="GND" x="325.12" y="215.9" rot="R270"/>
-<instance part="R34" gate="G$1" x="345.44" y="198.12"/>
-<instance part="R35" gate="G$1" x="355.6" y="175.26"/>
-<instance part="SUPPLY74" gate="GND" x="276.86" y="190.5" rot="R270"/>
-<instance part="SUPPLY82" gate="GND" x="327.66" y="198.12" rot="R270"/>
-<instance part="SUPPLY83" gate="GND" x="337.82" y="175.26" rot="R270"/>
-<instance part="SUPPLY75" gate="GND" x="276.86" y="167.64" rot="R270"/>
-<instance part="C57" gate="G$1" x="302.26" y="185.42"/>
-<instance part="C58" gate="G$1" x="302.26" y="157.48"/>
-<instance part="SUPPLY79" gate="GND" x="302.26" y="149.86"/>
-<instance part="SUPPLY78" gate="GND" x="302.26" y="177.8"/>
-<instance part="SUPPLY84" gate="G$1" x="363.22" y="180.34"/>
+<instance part="JP1" gate="A" x="71.12" y="205.74" smashed="yes">
+<attribute name="NAME" x="64.77" y="231.775" size="1.778" layer="95"/>
+<attribute name="VALUE" x="64.77" y="175.26" size="1.778" layer="96"/>
+</instance>
+<instance part="JP2" gate="A" x="86.36" y="205.74" smashed="yes" rot="MR0">
+<attribute name="NAME" x="92.71" y="231.775" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="92.71" y="175.26" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="SUPPLY66" gate="G$1" x="106.68" y="231.14" smashed="yes">
+<attribute name="VALUE" x="104.775" y="234.315" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME3" gate="G$2" x="325.12" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="337.82" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="340.36" y="19.05" size="2.54" layer="94" font="vector"/>
+<attribute name="TEAM" x="326.39" y="34.29" size="3.048" layer="94" ratio="10" align="top-left"/>
+<attribute name="REVISION" x="397.51" y="6.35" size="2.54" layer="94"/>
+<attribute name="SHEET_HEADLINE" x="326.39" y="6.35" size="2.54" layer="94"/>
+</instance>
+<instance part="J2" gate="G$1" x="177.8" y="218.44" smashed="yes">
+<attribute name="NAME" x="162.56" y="228.6" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="162.56" y="208.28" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY69" gate="GND" x="149.86" y="208.28" smashed="yes">
+<attribute name="VALUE" x="147.955" y="205.105" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY70" gate="G$1" x="154.94" y="228.6" smashed="yes">
+<attribute name="VALUE" x="153.035" y="231.775" size="1.778" layer="96"/>
+</instance>
+<instance part="U7" gate="G$1" x="119.38" y="76.2" smashed="yes">
+<attribute name="NAME" x="109.22" y="91.44" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="109.22" y="60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="C53" gate="G$1" x="86.36" y="81.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="85.344" y="81.915" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="85.344" y="77.089" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="R27" gate="G$1" x="96.52" y="78.74" smashed="yes">
+<attribute name="NAME" x="92.71" y="80.2386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="75.438" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY63" gate="GND" x="86.36" y="73.66" smashed="yes">
+<attribute name="VALUE" x="84.455" y="70.485" size="1.778" layer="96"/>
+</instance>
+<instance part="R26" gate="G$1" x="93.98" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.4814" y="62.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="97.282" y="62.23" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY65" gate="GND" x="101.6" y="58.42" smashed="yes">
+<attribute name="VALUE" x="99.695" y="55.245" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY64" gate="GND" x="93.98" y="58.42" smashed="yes">
+<attribute name="VALUE" x="92.075" y="55.245" size="1.778" layer="96"/>
+</instance>
+<instance part="C54" gate="G$1" x="147.32" y="71.12" smashed="yes">
+<attribute name="NAME" x="148.336" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="148.336" y="66.929" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY68" gate="GND" x="147.32" y="63.5" smashed="yes">
+<attribute name="VALUE" x="145.415" y="60.325" size="1.778" layer="96"/>
+</instance>
+<instance part="R28" gate="G$1" x="139.7" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.2014" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="143.002" y="67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R29" gate="G$1" x="139.7" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.2014" y="57.15" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="143.002" y="57.15" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY67" gate="GND" x="139.7" y="53.34" smashed="yes">
+<attribute name="VALUE" x="137.795" y="50.165" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$1" x="66.04" y="86.36" smashed="yes" rot="MR180">
+<attribute name="NAME" x="61.722" y="81.8134" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="61.722" y="92.8624" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="U8" gate="G$1" x="185.42" y="73.66" smashed="yes">
+<attribute name="NAME" x="177.8" y="81.28" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="177.8" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="C55" gate="G$1" x="162.56" y="71.12" smashed="yes">
+<attribute name="NAME" x="163.576" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="163.576" y="66.929" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY71" gate="GND" x="162.56" y="60.96" smashed="yes">
+<attribute name="VALUE" x="160.655" y="57.785" size="1.778" layer="96"/>
+</instance>
+<instance part="C56" gate="G$1" x="205.74" y="71.12" smashed="yes">
+<attribute name="NAME" x="206.756" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="206.756" y="66.929" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY73" gate="GND" x="205.74" y="63.5" smashed="yes">
+<attribute name="VALUE" x="203.835" y="60.325" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY72" gate="G$1" x="205.74" y="81.28" smashed="yes">
+<attribute name="VALUE" x="203.835" y="84.455" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY62" gate="G$1" x="53.34" y="83.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="50.165" y="81.915" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D2" gate="G$1" x="287.02" y="228.6" smashed="yes">
+<attribute name="NAME" x="284.48" y="226.822" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="284.48" y="224.79" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="D3" gate="G$1" x="287.02" y="215.9" smashed="yes">
+<attribute name="NAME" x="284.48" y="214.122" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="284.48" y="212.09" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="D4" gate="G$1" x="330.2" y="228.6" smashed="yes">
+<attribute name="NAME" x="327.66" y="226.822" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="327.66" y="224.79" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="D5" gate="G$1" x="330.2" y="215.9" smashed="yes">
+<attribute name="NAME" x="327.66" y="214.122" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="327.66" y="212.09" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="S1" gate="G$1" x="289.56" y="193.04" smashed="yes">
+<attribute name="NAME" x="284.48" y="198.12" size="1.778" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="284.48" y="187.96" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="D6" gate="G$1" x="332.74" y="198.12" smashed="yes">
+<attribute name="NAME" x="330.2" y="196.342" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="330.2" y="194.31" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="S2" gate="G$1" x="289.56" y="165.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="294.64" y="170.18" size="1.778" layer="95" font="vector" rot="MR0" align="top-left"/>
+<attribute name="VALUE" x="294.64" y="160.02" size="1.778" layer="96" font="vector" rot="MR0"/>
+</instance>
+<instance part="D7" gate="G$1" x="342.9" y="175.26" smashed="yes">
+<attribute name="NAME" x="340.36" y="173.482" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="340.36" y="171.45" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R30" gate="G$1" x="299.72" y="228.6" smashed="yes">
+<attribute name="NAME" x="295.91" y="230.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="295.91" y="225.298" size="1.778" layer="96"/>
+</instance>
+<instance part="R31" gate="G$1" x="299.72" y="215.9" smashed="yes">
+<attribute name="NAME" x="295.91" y="217.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="295.91" y="212.598" size="1.778" layer="96"/>
+</instance>
+<instance part="R32" gate="G$1" x="342.9" y="228.6" smashed="yes">
+<attribute name="NAME" x="339.09" y="230.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="339.09" y="225.298" size="1.778" layer="96"/>
+</instance>
+<instance part="R33" gate="G$1" x="342.9" y="215.9" smashed="yes">
+<attribute name="NAME" x="339.09" y="217.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="339.09" y="212.598" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY76" gate="GND" x="281.94" y="228.6" smashed="yes" rot="R270">
+<attribute name="VALUE" x="278.765" y="230.505" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY77" gate="GND" x="281.94" y="215.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="278.765" y="217.805" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY80" gate="GND" x="325.12" y="228.6" smashed="yes" rot="R270">
+<attribute name="VALUE" x="321.945" y="230.505" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY81" gate="GND" x="325.12" y="215.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="321.945" y="217.805" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R34" gate="G$1" x="345.44" y="198.12" smashed="yes">
+<attribute name="NAME" x="341.63" y="199.6186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="341.63" y="194.818" size="1.778" layer="96"/>
+</instance>
+<instance part="R35" gate="G$1" x="355.6" y="175.26" smashed="yes">
+<attribute name="NAME" x="351.79" y="176.7586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="351.79" y="171.958" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY74" gate="GND" x="276.86" y="190.5" smashed="yes" rot="R270">
+<attribute name="VALUE" x="273.685" y="192.405" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY82" gate="GND" x="327.66" y="198.12" smashed="yes" rot="R270">
+<attribute name="VALUE" x="324.485" y="200.025" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY83" gate="GND" x="337.82" y="175.26" smashed="yes" rot="R270">
+<attribute name="VALUE" x="334.645" y="177.165" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY75" gate="GND" x="276.86" y="167.64" smashed="yes" rot="R270">
+<attribute name="VALUE" x="273.685" y="169.545" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C57" gate="G$1" x="302.26" y="185.42" smashed="yes">
+<attribute name="NAME" x="303.276" y="186.055" size="1.778" layer="95"/>
+<attribute name="VALUE" x="303.276" y="181.229" size="1.778" layer="96"/>
+</instance>
+<instance part="C58" gate="G$1" x="302.26" y="157.48" smashed="yes">
+<attribute name="NAME" x="303.276" y="158.115" size="1.778" layer="95"/>
+<attribute name="VALUE" x="303.276" y="153.289" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY79" gate="GND" x="302.26" y="149.86" smashed="yes">
+<attribute name="VALUE" x="300.355" y="146.685" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY78" gate="GND" x="302.26" y="177.8" smashed="yes">
+<attribute name="VALUE" x="300.355" y="174.625" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY84" gate="G$1" x="363.22" y="180.34" smashed="yes">
+<attribute name="VALUE" x="361.315" y="183.515" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
