@@ -1,7 +1,5 @@
 # MCU Board
 
-#### Before modifying ensure layout changes are in compliance with datasheets
-
 PCB for STM32F769NIH6 microcontroller. This board is still a work in progress but most of the major components exist and are connected to the MCU. Major components include:
 * Microcontroller: STM32F769NIH6
 * Flash memory: S25FS256SAGNFI00
@@ -23,5 +21,7 @@ The button labeled USB MODE will be used to toggle the MCU into a state that wil
 
 The power is passed from the USB or the VIN to a buck converter to allow for 4.5V to 24V input with the buck outputing ~3.5V which gets fed into a linear regulator to drop the voltage to 3.3V. The buck is in place for an efficient conversion then the LDO is in place to make sure the power is smoothed out before it is distributed to the sensitive chips.
 
+#### Before modifying ensure layout changes are in compliance with datasheets
+
 <!-- ![MCU Board](./mTrain.png) -->
-<img src="./mTrain.png" width="300">
+<img src="./mTrain.png" width="600">
